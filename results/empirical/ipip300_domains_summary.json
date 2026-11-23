@@ -1,0 +1,1672 @@
+{
+  "metadata": {
+    "dataset_name": "ipip300_domains",
+    "input_path": "data/processed/ipip300_domains_complete.csv",
+    "cols_neoac": [
+      "N",
+      "E",
+      "O",
+      "A",
+      "C"
+    ],
+    "criteria_cols": null,
+    "reps_per_null": 200,
+    "n_jobs": -2,
+    "seed": 20261121,
+    "gerlach_null_samples": 200,
+    "split_half_splits": 5,
+    "ward_subsample": 2000,
+    "max_kde_points": 5000,
+    "cv_splits": null,
+    "total_elapsed_sec": 10828.70019683335,
+    "null_reps_parquet": "results/empirical/ipip300_domains_null_reps.parquet"
+  },
+  "empirical_diagnostics": {
+    "n_rows_raw": 145388,
+    "n_dropped_na": 0,
+    "n": 145388,
+    "trait_order": [
+      "N",
+      "E",
+      "O",
+      "A",
+      "C"
+    ],
+    "input_cols_neoac": [
+      "N",
+      "E",
+      "O",
+      "A",
+      "C"
+    ],
+    "r_emp": [
+      [
+        1.0,
+        -0.4253000429531518,
+        -0.03566098401023053,
+        -0.1653561463600523,
+        -0.4603778814229187
+      ],
+      [
+        -0.4253000429531518,
+        1.0,
+        0.24036121948178246,
+        0.06911973378401551,
+        0.1589177770859287
+      ],
+      [
+        -0.03566098401023053,
+        0.24036121948178246,
+        1.0,
+        0.15645885511275373,
+        -0.055064048169984475
+      ],
+      [
+        -0.1653561463600523,
+        0.06911973378401551,
+        0.15645885511275373,
+        1.0,
+        0.30293480159672975
+      ],
+      [
+        -0.4603778814229187,
+        0.1589177770859287,
+        -0.055064048169984475,
+        0.30293480159672975,
+        1.0
+      ]
+    ],
+    "r_emp_is_positive_definite": true,
+    "eigenvalues": [
+      1.8602179685735578,
+      1.1359937819930923,
+      0.9932737470271615,
+      0.5723502567936207,
+      0.4381642456125669
+    ],
+    "lambda1": 1.8602179685735578,
+    "lambda2": 1.1359937819930923,
+    "lambda2_over_lambda1": 0.6106777814129969,
+    "noncollinearity_threshold": 0.50764,
+    "exceeds_noncollinearity_threshold": true,
+    "threshold_margin": 0.10303778141299691,
+    "det_r_emp": 0.526389920005634,
+    "marginal_skewness": {
+      "N": 0.1356360056905003,
+      "E": -0.32222848335777066,
+      "O": -0.19320786906059592,
+      "A": -0.5370859929753545,
+      "C": -0.19543854283243
+    },
+    "marginal_kurtosis_excess": {
+      "N": -0.3113514921963252,
+      "E": -0.13884850155627593,
+      "O": -0.1338536588521877,
+      "A": 0.5301988952975454,
+      "C": -0.12419107259552975
+    }
+  },
+  "null3_copula_calibration": {
+    "latent_corr": [
+      [
+        1.0,
+        -0.4265339092049225,
+        -0.03598045740589911,
+        -0.16679955111622385,
+        -0.46067500857575494
+      ],
+      [
+        -0.4265339092049225,
+        1.0,
+        0.2411098417398978,
+        0.06993961942250719,
+        0.15898795496415913
+      ],
+      [
+        -0.03598045740589911,
+        0.2411098417398978,
+        1.0,
+        0.1581403317226107,
+        -0.05557669684037346
+      ],
+      [
+        -0.16679955111622385,
+        0.06993961942250719,
+        0.1581403317226107,
+        1.0,
+        0.3047676554556898
+      ],
+      [
+        -0.46067500857575494,
+        0.15898795496415913,
+        -0.05557669684037346,
+        0.3047676554556898,
+        1.0
+      ]
+    ],
+    "achieved_corr": [
+      [
+        0.9999999999999999,
+        -0.42531423578094724,
+        -0.03566250403824792,
+        -0.16537654945819524,
+        -0.46041536842465036
+      ],
+      [
+        -0.42531423578094724,
+        1.0,
+        0.24027097257761876,
+        0.06916343627410615,
+        0.15897849829149752
+      ],
+      [
+        -0.03566250403824792,
+        0.24027097257761879,
+        1.0,
+        0.1565213992892077,
+        -0.05504575385557072
+      ],
+      [
+        -0.16537654945819524,
+        0.06916343627410614,
+        0.1565213992892077,
+        1.0,
+        0.30296980225315323
+      ],
+      [
+        -0.46041536842465036,
+        0.15897849829149752,
+        -0.05504575385557072,
+        0.3029698022531532,
+        1.0
+      ]
+    ],
+    "max_abs_error": 9.02469041637044e-05,
+    "iterations": 2,
+    "converged": true,
+    "unimodality": {
+      "is_unimodal": true,
+      "marginal_modes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pc_modes": [
+        1,
+        1
+      ],
+      "pc12_joint_modes": 1
+    }
+  },
+  "empirical_metrics": {
+    "wk_inertia": 487594.3427613892,
+    "wk_between_var": 1.6462253755856757,
+    "wk_arc_mean_d2": 0.9106654058505003,
+    "wk_arc_mean_elevation": 0.1049983010147646,
+    "wk_arc_mean_scatter": 0.0693253174887579,
+    "wk_arc_mean_shape": 0.7363417873469779,
+    "wk_arc_mean_tucker": 0.6700450672978667,
+    "wk_arc_min_tucker": 0.30707699648046866,
+    "wk_split_half_kappa": 0.6605158834735897,
+    "wk_split_half_ari": 0.5454866136375579,
+    "wk_split_half_nmi": 0.5445917521053107,
+    "lpa1_bic": 2063080.2262518748,
+    "lpa1_aic": 2062981.3546387774,
+    "lpa1_ll": -1031480.6773193887,
+    "lpa3_bic": 1994825.7663459962,
+    "lpa3_aic": 1994509.3771840848,
+    "lpa3_ll": -997222.6885920424,
+    "lpa3_converged": true,
+    "lpa_delta_bic_3_vs_1": -68254.45990587864,
+    "lpa_prefers_3": true,
+    "lpa3_arc_mean_d2": 0.3627808065484772,
+    "lpa3_arc_mean_elevation": 0.22180272080929067,
+    "lpa3_arc_mean_scatter": 0.026547064452306663,
+    "lpa3_arc_mean_shape": 0.11443102128687987,
+    "lpa3_arc_mean_tucker": 0.8819523538212621,
+    "gmm1_bic": 1969901.721231128,
+    "gmm1_aic": 1969703.9780049336,
+    "gmm1_ll": -984831.9890024668,
+    "gmm3_bic": 1955939.028371451,
+    "gmm3_aic": 1955326.024370248,
+    "gmm3_ll": -977601.012185124,
+    "gmm3_converged": true,
+    "gmm_delta_bic_3_vs_1": -13962.692859677132,
+    "gmm_prefers_3": true,
+    "gmm3_arc_mean_d2": 0.5509059903407628,
+    "gmm3_arc_mean_elevation": 0.29221694700133716,
+    "gmm3_arc_mean_scatter": 0.11997191604674817,
+    "gmm3_arc_mean_shape": 0.13871712729267757,
+    "gmm3_arc_mean_tucker": 0.8133603281670884,
+    "ari_wk_vs_lpa3": 0.27246579840915924,
+    "nmi_wk_vs_lpa3": 0.3000980084607123,
+    "ari_wk_vs_gmm3": 0.22011825075696675,
+    "nmi_wk_vs_gmm3": 0.23468962748106387,
+    "ari_lpa3_vs_gmm3": 0.43718395911137475,
+    "nmi_lpa3_vs_gmm3": 0.3764295415106057,
+    "gerlach_n_sig_perm": 4,
+    "gerlach_n_sig_null2": 2,
+    "gerlach_n_sig_null3": 2,
+    "gerlach_max_enrichment_perm": 1.7162037967412647,
+    "gerlach_max_enrichment_null2": 1.3922736630082126,
+    "gerlach_max_enrichment_null3": 1.2588813817736708,
+    "gerlach_min_pval_perm": 0.004975124378109453,
+    "gerlach_min_pval_null2": 0.004975124378109453,
+    "gerlach_min_pval_null3": 0.004975124378109453
+  },
+  "empirical_centroids": {
+    "ward_kmeans_k3": [
+      {
+        "arc_type": "Resilient",
+        "original_cluster_index": 0,
+        "proportion": 0.37670234132115443,
+        "centroid_neoac": {
+          "N": -0.6508714688734579,
+          "E": 0.6771468772384976,
+          "O": 0.5850055333267757,
+          "A": 0.46837887724097826,
+          "C": 0.4745241588135473
+        },
+        "d2": 0.13058148174022047,
+        "elevation": 0.000587180688883201,
+        "scatter": 0.025610683981985086,
+        "shape": 0.10438361706935287,
+        "tucker_congruence": 0.9686771801114176
+      },
+      {
+        "arc_type": "Overcontrolled",
+        "original_cluster_index": 2,
+        "proportion": 0.3049701488430957,
+        "centroid_neoac": {
+          "N": -0.13872704337371095,
+          "E": -0.3384608374238669,
+          "O": -0.9356522782437078,
+          "A": -0.09865893620971786,
+          "C": 0.35416078991429517
+        },
+        "d2": 1.6177028081045064,
+        "elevation": 0.2235928583864605,
+        "scatter": 0.02363167152525471,
+        "shape": 1.3704782781927907,
+        "tucker_congruence": 0.30707699648046866
+      },
+      {
+        "arc_type": "Undercontrolled",
+        "original_cluster_index": 1,
+        "proportion": 0.31832750983574987,
+        "centroid_neoac": {
+          "N": 0.9013833596524884,
+          "E": -0.4752144228251835,
+          "O": 0.20574146899977552,
+          "A": -0.45847986803499385,
+          "C": -0.8995801687599474
+        },
+        "d2": 0.983711927706774,
+        "elevation": 0.09081486396895005,
+        "scatter": 0.15873359695903394,
+        "shape": 0.7341634667787904,
+        "tucker_congruence": 0.7343810253017137
+      }
+    ],
+    "lpa_diag_k3": [
+      {
+        "arc_type": "Resilient",
+        "original_cluster_index": 0,
+        "proportion": 0.41084454697553174,
+        "centroid_neoac": {
+          "N": -0.6990357816306443,
+          "E": 0.4402851753578413,
+          "O": 0.0759122599462359,
+          "A": 0.39933442075676817,
+          "C": 0.6790880547895674
+        },
+        "d2": 0.18143944600007253,
+        "elevation": 0.07306370897020513,
+        "scatter": 0.03144536973919563,
+        "shape": 0.07693036729067106,
+        "tucker_congruence": 0.9671574917801044
+      },
+      {
+        "arc_type": "Overcontrolled",
+        "original_cluster_index": 1,
+        "proportion": 0.305380970019038,
+        "centroid_neoac": {
+          "N": 0.7424418573506857,
+          "E": -0.9432083347648702,
+          "O": -0.35080335577848465,
+          "A": -0.2369247970481956,
+          "C": -0.37369186032143237
+        },
+        "d2": 0.3283372645798612,
+        "elevation": 0.22564802814660986,
+        "scatter": 0.01703667363070227,
+        "shape": 0.08565256280254943,
+        "tucker_congruence": 0.9057419650791645
+      },
+      {
+        "arc_type": "Undercontrolled",
+        "original_cluster_index": 2,
+        "proportion": 0.2837744830054303,
+        "centroid_neoac": {
+          "N": 0.2130826697412506,
+          "E": 0.37758543916914555,
+          "O": 0.2676087371274148,
+          "A": -0.32318636923269334,
+          "C": -0.5810291316086436
+        },
+        "d2": 0.5785657090654979,
+        "elevation": 0.36669642531105706,
+        "scatter": 0.031159149987022093,
+        "shape": 0.18071013376741912,
+        "tucker_congruence": 0.7729576046045173
+      }
+    ],
+    "gmm_full_k3": [
+      {
+        "arc_type": "Resilient",
+        "original_cluster_index": 0,
+        "proportion": 0.4188172957945862,
+        "centroid_neoac": {
+          "N": -0.4223136121920958,
+          "E": 0.38142333201879,
+          "O": 0.0020418128394363104,
+          "A": 0.4212123085568839,
+          "C": 0.40881613534221073
+        },
+        "d2": 0.4655465676978776,
+        "elevation": 0.10048516512441491,
+        "scatter": 0.26212621968254673,
+        "shape": 0.1029351828909162,
+        "tucker_congruence": 0.9545706049104618
+      },
+      {
+        "arc_type": "Overcontrolled",
+        "original_cluster_index": 1,
+        "proportion": 0.30321346609784605,
+        "centroid_neoac": {
+          "N": 0.4316572393835122,
+          "E": -0.7962619826885043,
+          "O": -0.42469125024895166,
+          "A": -0.29785300414452615,
+          "C": -0.1782764362904677
+        },
+        "d2": 0.31201250279167086,
+        "elevation": 0.2716432884376607,
+        "scatter": 0.038020755864418006,
+        "shape": 0.002348458489592108,
+        "tucker_congruence": 0.8653843569651295
+      },
+      {
+        "arc_type": "Undercontrolled",
+        "original_cluster_index": 2,
+        "proportion": 0.27796923810756774,
+        "centroid_neoac": {
+          "N": 0.16544261382634853,
+          "E": 0.2938838404566242,
+          "O": 0.46018386907971925,
+          "A": -0.3097391597611018,
+          "C": -0.42149790713415264
+        },
+        "d2": 0.87515890053274,
+        "elevation": 0.5045223874419358,
+        "scatter": 0.05976877259327977,
+        "shape": 0.31086774049752436,
+        "tucker_congruence": 0.6201260226256736
+      }
+    ],
+    "gerlach_gmm_k4": {
+      "centers_neoac": [
+        {
+          "N": -0.5806743759171026,
+          "E": 0.36888911960133236,
+          "O": -0.2308836070759786,
+          "A": 0.3711976041025747,
+          "C": 0.5418389902646787
+        },
+        {
+          "N": 0.03328594703622698,
+          "E": 0.10603697876903455,
+          "O": -0.21529867774748487,
+          "A": -0.9448543031097448,
+          "C": -0.3198040978123111
+        },
+        {
+          "N": 0.7127725832590129,
+          "E": -0.9478117419844716,
+          "O": -0.18748491604791143,
+          "A": 0.08762078428130278,
+          "C": -0.26221847734580506
+        },
+        {
+          "N": -0.019457210896497223,
+          "E": 0.3993051719453483,
+          "O": 0.6758499999293791,
+          "A": 0.2954289361924113,
+          "C": -0.12958371350444506
+        }
+      ],
+      "weights": [
+        0.3021136224122304,
+        0.2160087708723193,
+        0.2425680821533204,
+        0.2393095245621299
+      ],
+      "empirical_densities": [
+        0.007593739080596929,
+        0.004772799279064384,
+        0.003954342854498326,
+        0.006179467878509559
+      ],
+      "enrichment_by_null": {
+        "permutation": [
+          1.7162037967412647,
+          1.5496740174566932,
+          1.4739429471949692,
+          1.3265384504354885
+        ],
+        "null2": [
+          1.3922736630082126,
+          0.9907429763959505,
+          0.8719555973131828,
+          1.1259492773585384
+        ],
+        "null3": [
+          1.2588813817736708,
+          1.2152792971238902,
+          1.0022610473521012,
+          1.0453055330373464
+        ]
+      },
+      "p_values_by_null": {
+        "permutation": [
+          0.004975124378109453,
+          0.004975124378109453,
+          0.004975124378109453,
+          0.004975124378109453
+        ],
+        "null2": [
+          0.004975124378109453,
+          0.6019900497512438,
+          0.9950248756218906,
+          0.004975124378109453
+        ],
+        "null3": [
+          0.004975124378109453,
+          0.004975124378109453,
+          0.47761194029850745,
+          0.19900497512437812
+        ]
+      },
+      "is_significant_by_null": {
+        "permutation": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "null2": [
+          true,
+          false,
+          false,
+          true
+        ],
+        "null3": [
+          true,
+          true,
+          false,
+          false
+        ]
+      }
+    }
+  },
+  "null_comparisons": {
+    "null1_permutation": {
+      "wk_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.9106654058505003,
+        "null_mean": 1.3282548007669315,
+        "null_sd": 0.3581961242467483,
+        "null_median": 1.3547993645439256,
+        "null_q05": 0.7904514651970415,
+        "null_q95": 1.9020784170762775,
+        "n_valid": 200,
+        "n_extreme": 37,
+        "empirical_prob": 0.185,
+        "mc_p_value": 0.1890547263681592
+      },
+      "wk_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.1049983010147646,
+        "null_mean": 0.2505282379565271,
+        "null_sd": 0.23983007088166566,
+        "null_median": 0.13808675717152247,
+        "null_q05": 0.02818012766347648,
+        "null_q95": 0.7922464964528944,
+        "n_valid": 200,
+        "n_extreme": 83,
+        "empirical_prob": 0.415,
+        "mc_p_value": 0.417910447761194
+      },
+      "wk_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.0693253174887579,
+        "null_mean": 0.07277535811276752,
+        "null_sd": 0.044381619720335816,
+        "null_median": 0.06403630279003923,
+        "null_q05": 0.026852846829065077,
+        "null_q95": 0.14883487223284267,
+        "n_valid": 200,
+        "n_extreme": 114,
+        "empirical_prob": 0.57,
+        "mc_p_value": 0.572139303482587
+      },
+      "wk_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.7363417873469779,
+        "null_mean": 1.0049512046976368,
+        "null_sd": 0.4065072372214383,
+        "null_median": 1.0288421959521898,
+        "null_q05": 0.4927206178384626,
+        "null_q95": 1.6779075111562627,
+        "n_valid": 200,
+        "n_extreme": 76,
+        "empirical_prob": 0.38,
+        "mc_p_value": 0.38308457711442784
+      },
+      "wk_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6700450672978667,
+        "null_mean": 0.5146832173580127,
+        "null_sd": 0.14118368525877847,
+        "null_median": 0.5019809941565712,
+        "null_q05": 0.2978384324894062,
+        "null_q95": 0.7237803554839188,
+        "n_valid": 200,
+        "n_extreme": 38,
+        "empirical_prob": 0.19,
+        "mc_p_value": 0.19402985074626866
+      },
+      "wk_arc_min_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.30707699648046866,
+        "null_mean": 0.32671284717751936,
+        "null_sd": 0.24272971707024218,
+        "null_median": 0.3041352478461282,
+        "null_q05": -0.04853047415106784,
+        "null_q95": 0.6550768993753368,
+        "n_valid": 200,
+        "n_extreme": 98,
+        "empirical_prob": 0.49,
+        "mc_p_value": 0.4925373134328358
+      },
+      "wk_split_half_kappa": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6605158834735897,
+        "null_mean": 0.35320172468335115,
+        "null_sd": 0.09165052145984875,
+        "null_median": 0.34231785286598343,
+        "null_q05": 0.21732196510238283,
+        "null_q95": 0.5041389405324609,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "wk_split_half_ari": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5454866136375579,
+        "null_mean": 0.22044540990363978,
+        "null_sd": 0.08150858763659051,
+        "null_median": 0.20356781843893867,
+        "null_q05": 0.10844582180937769,
+        "null_q95": 0.37234615227196777,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "wk_split_half_nmi": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5445917521053107,
+        "null_mean": 0.21292844563522415,
+        "null_sd": 0.07481624099580786,
+        "null_median": 0.20152738897993044,
+        "null_q05": 0.10501990051556198,
+        "null_q95": 0.3523145843847521,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "wk_between_var": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 1.6462253755856757,
+        "null_mean": 1.1176833720312425,
+        "null_sd": 0.005923451655095153,
+        "null_median": 1.1187974366320157,
+        "null_q05": 1.106742158715507,
+        "null_q95": 1.1259710856341487,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.3627808065484772,
+        "null_mean": 1.008043119317455,
+        "null_sd": 0.11857367396602558,
+        "null_median": 0.9899040326263047,
+        "null_q05": 0.8829621810125778,
+        "null_q95": 1.338323233811529,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.22180272080929067,
+        "null_mean": 0.1105768727325628,
+        "null_sd": 0.09385018566173083,
+        "null_median": 0.06340607310035627,
+        "null_q05": 0.03765132232066989,
+        "null_q95": 0.30304459119023236,
+        "n_valid": 200,
+        "n_extreme": 163,
+        "empirical_prob": 0.815,
+        "mc_p_value": 0.8159203980099502
+      },
+      "lpa3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.026547064452306663,
+        "null_mean": 0.20964491338745958,
+        "null_sd": 0.04071212575981701,
+        "null_median": 0.20151111780183656,
+        "null_q05": 0.16605214814138328,
+        "null_q95": 0.29466046607471297,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11443102128687987,
+        "null_mean": 0.6878213331974328,
+        "null_sd": 0.16779974684864726,
+        "null_median": 0.7243789656597309,
+        "null_q05": 0.4131556148909085,
+        "null_q95": 1.0877434353614301,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8819523538212621,
+        "null_mean": 0.6051646399317768,
+        "null_sd": 0.0738996926717536,
+        "null_median": 0.6188698784735658,
+        "null_q05": 0.4005247250603492,
+        "null_q95": 0.671611595338042,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -68254.45990587864,
+        "null_mean": -7689.119311246976,
+        "null_sd": 755.5133351656186,
+        "null_median": -8179.141506307293,
+        "null_q05": -8273.24146254802,
+        "null_q95": -6338.608288813942,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "gmm3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.5509059903407628,
+        "null_mean": 1.0106296973257474,
+        "null_sd": 0.18958146618109953,
+        "null_median": 1.005692836123409,
+        "null_q05": 0.7439354285841876,
+        "null_q95": 1.357237816474251,
+        "n_valid": 200,
+        "n_extreme": 1,
+        "empirical_prob": 0.005,
+        "mc_p_value": 0.009950248756218905
+      },
+      "gmm3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.29221694700133716,
+        "null_mean": 0.0998280973487812,
+        "null_sd": 0.08173654105122422,
+        "null_median": 0.0716609128463592,
+        "null_q05": 0.04463085252889076,
+        "null_q95": 0.29204577490320094,
+        "n_valid": 200,
+        "n_extreme": 190,
+        "empirical_prob": 0.95,
+        "mc_p_value": 0.9502487562189055
+      },
+      "gmm3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11997191604674817,
+        "null_mean": 0.2039970426752972,
+        "null_sd": 0.047066511538151244,
+        "null_median": 0.197137525967304,
+        "null_q05": 0.14332156471629465,
+        "null_q95": 0.2880152241833474,
+        "n_valid": 200,
+        "n_extreme": 1,
+        "empirical_prob": 0.005,
+        "mc_p_value": 0.009950248756218905
+      },
+      "gmm3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.13871712729267757,
+        "null_mean": 0.706804557301669,
+        "null_sd": 0.20059225483466886,
+        "null_median": 0.7121204046720873,
+        "null_q05": 0.3798930854401976,
+        "null_q95": 1.0524228587631805,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "gmm3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8133603281670884,
+        "null_mean": 0.6059863655615692,
+        "null_sd": 0.09701574492633128,
+        "null_median": 0.6115167084764537,
+        "null_q05": 0.4138951105036227,
+        "null_q95": 0.7430184011713346,
+        "n_valid": 200,
+        "n_extreme": 1,
+        "empirical_prob": 0.005,
+        "mc_p_value": 0.009950248756218905
+      },
+      "gmm_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -13962.692859677132,
+        "null_mean": -7594.234451240717,
+        "null_sd": 525.7859064289204,
+        "null_median": -7893.079509117524,
+        "null_q05": -8038.945032885589,
+        "null_q95": -6406.504304046836,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      }
+    },
+    "null2_mvnormal": {
+      "wk_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.9106654058505003,
+        "null_mean": 0.8919409360405024,
+        "null_sd": 0.19981064340904342,
+        "null_median": 0.8663829004265469,
+        "null_q05": 0.615596072954345,
+        "null_q95": 1.2343544042237466,
+        "n_valid": 200,
+        "n_extreme": 125,
+        "empirical_prob": 0.625,
+        "mc_p_value": 0.6268656716417911
+      },
+      "wk_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.1049983010147646,
+        "null_mean": 0.2895724845664618,
+        "null_sd": 0.2334264874849716,
+        "null_median": 0.19515042563467036,
+        "null_q05": 0.032833858984739665,
+        "null_q95": 0.5949671167355501,
+        "n_valid": 200,
+        "n_extreme": 86,
+        "empirical_prob": 0.43,
+        "mc_p_value": 0.43283582089552236
+      },
+      "wk_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.0693253174887579,
+        "null_mean": 0.018857121647030767,
+        "null_sd": 0.01559608477210934,
+        "null_median": 0.025650400837214916,
+        "null_q05": 0.0015794434498991382,
+        "null_q95": 0.038637996446233475,
+        "n_valid": 200,
+        "n_extreme": 200,
+        "empirical_prob": 1.0,
+        "mc_p_value": 1.0
+      },
+      "wk_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.7363417873469779,
+        "null_mean": 0.5835113298270097,
+        "null_sd": 0.2367801020630805,
+        "null_median": 0.5368055776905688,
+        "null_q05": 0.3000712835849594,
+        "null_q95": 0.9630708744037292,
+        "n_valid": 200,
+        "n_extreme": 152,
+        "empirical_prob": 0.76,
+        "mc_p_value": 0.7611940298507462
+      },
+      "wk_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6700450672978667,
+        "null_mean": 0.6787470451346365,
+        "null_sd": 0.06655071616288427,
+        "null_median": 0.6872117767300163,
+        "null_q05": 0.5703375925405365,
+        "null_q95": 0.77767765553274,
+        "n_valid": 200,
+        "n_extreme": 122,
+        "empirical_prob": 0.61,
+        "mc_p_value": 0.6119402985074627
+      },
+      "wk_arc_min_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.30707699648046866,
+        "null_mean": 0.3112481278554311,
+        "null_sd": 0.15787821811844618,
+        "null_median": 0.3203190670643309,
+        "null_q05": 0.06316452526782253,
+        "null_q95": 0.5701918359107288,
+        "n_valid": 200,
+        "n_extreme": 108,
+        "empirical_prob": 0.54,
+        "mc_p_value": 0.5422885572139303
+      },
+      "wk_split_half_kappa": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6605158834735897,
+        "null_mean": 0.6156376353961426,
+        "null_sd": 0.11937905651460605,
+        "null_median": 0.6130613168016036,
+        "null_q05": 0.42183482603500777,
+        "null_q95": 0.7973131000543605,
+        "n_valid": 200,
+        "n_extreme": 70,
+        "empirical_prob": 0.35,
+        "mc_p_value": 0.35323383084577115
+      },
+      "wk_split_half_ari": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5454866136375579,
+        "null_mean": 0.5288924659082135,
+        "null_sd": 0.11682450040130933,
+        "null_median": 0.5227734899543486,
+        "null_q05": 0.33637050210118746,
+        "null_q95": 0.7332767597553594,
+        "n_valid": 200,
+        "n_extreme": 85,
+        "empirical_prob": 0.425,
+        "mc_p_value": 0.42786069651741293
+      },
+      "wk_split_half_nmi": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5445917521053107,
+        "null_mean": 0.5532857653879995,
+        "null_sd": 0.09296350349225624,
+        "null_median": 0.5481458762549951,
+        "null_q05": 0.40016668310777126,
+        "null_q95": 0.71434290145975,
+        "n_valid": 200,
+        "n_extreme": 102,
+        "empirical_prob": 0.51,
+        "mc_p_value": 0.5124378109452736
+      },
+      "wk_between_var": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 1.6462253755856757,
+        "null_mean": 1.638469222081645,
+        "null_sd": 0.006967715803136079,
+        "null_median": 1.6387943690489408,
+        "null_q05": 1.6304088977591902,
+        "null_q95": 1.647985386814412,
+        "n_valid": 200,
+        "n_extreme": 20,
+        "empirical_prob": 0.1,
+        "mc_p_value": 0.1044776119402985
+      },
+      "lpa3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.3627808065484772,
+        "null_mean": 0.6368045759792115,
+        "null_sd": 0.05898191764963863,
+        "null_median": 0.6351971692183335,
+        "null_q05": 0.5466105843620146,
+        "null_q95": 0.7298869305335624,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.22180272080929067,
+        "null_mean": 0.17591969739335503,
+        "null_sd": 0.14144521943441402,
+        "null_median": 0.05332171039158082,
+        "null_q05": 0.04036950964900183,
+        "null_q95": 0.3423032558660361,
+        "n_valid": 200,
+        "n_extreme": 108,
+        "empirical_prob": 0.54,
+        "mc_p_value": 0.5422885572139303
+      },
+      "lpa3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.026547064452306663,
+        "null_mean": 0.05353026041250482,
+        "null_sd": 0.01817054355856854,
+        "null_median": 0.06158588635143512,
+        "null_q05": 0.031363577996946425,
+        "null_q95": 0.07673776862441313,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11443102128687987,
+        "null_mean": 0.40735461817335156,
+        "null_sd": 0.10073717255418782,
+        "null_median": 0.41223091761618263,
+        "null_q05": 0.2665295013538091,
+        "null_q95": 0.5505838011547628,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8819523538212621,
+        "null_mean": 0.7261957659693107,
+        "null_sd": 0.03101994245804311,
+        "null_median": 0.7278674182328106,
+        "null_q05": 0.6800772213941043,
+        "null_q95": 0.7751849325339611,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -68254.45990587864,
+        "null_mean": -61577.03369854174,
+        "null_sd": 473.2304504339386,
+        "null_median": -61551.25785946788,
+        "null_q05": -62376.990723276525,
+        "null_q95": -60849.86008141209,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "gmm3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.5509059903407628,
+        "null_mean": 0.7283763768632461,
+        "null_sd": 0.12727746700444853,
+        "null_median": 0.7034340836797115,
+        "null_q05": 0.5712315421968541,
+        "null_q95": 0.9620896240136856,
+        "n_valid": 200,
+        "n_extreme": 5,
+        "empirical_prob": 0.025,
+        "mc_p_value": 0.029850746268656716
+      },
+      "gmm3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.29221694700133716,
+        "null_mean": 0.22031276903055158,
+        "null_sd": 0.1747966081364617,
+        "null_median": 0.11994212202633336,
+        "null_q05": 0.030294358813103092,
+        "null_q95": 0.4428467953612504,
+        "n_valid": 200,
+        "n_extreme": 102,
+        "empirical_prob": 0.51,
+        "mc_p_value": 0.5124378109452736
+      },
+      "gmm3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11997191604674817,
+        "null_mean": 0.08059868071596994,
+        "null_sd": 0.014779006578876546,
+        "null_median": 0.080329217870377,
+        "null_q05": 0.06298095050042278,
+        "null_q95": 0.10087013152900394,
+        "n_valid": 200,
+        "n_extreme": 199,
+        "empirical_prob": 0.995,
+        "mc_p_value": 0.9950248756218906
+      },
+      "gmm3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.13871712729267757,
+        "null_mean": 0.42746492711672457,
+        "null_sd": 0.16170680247615637,
+        "null_median": 0.41881621186617,
+        "null_q05": 0.21671544029992235,
+        "null_q95": 0.6894117214750061,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "gmm3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8133603281670884,
+        "null_mean": 0.6718932613209279,
+        "null_sd": 0.05879726793462973,
+        "null_median": 0.6775451227641207,
+        "null_q05": 0.574469287696833,
+        "null_q95": 0.7476107272629585,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "gmm_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -13962.692859677132,
+        "null_mean": 1334.3724730972003,
+        "null_sd": 33.46716902180547,
+        "null_median": 1333.5414562282385,
+        "null_q05": 1277.6537261144724,
+        "null_q95": 1386.7714262659777,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      }
+    },
+    "null3_gaussian_copula": {
+      "wk_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.9106654058505003,
+        "null_mean": 0.7505292815735011,
+        "null_sd": 0.21079286117257898,
+        "null_median": 0.7452635952911921,
+        "null_q05": 0.46024712755762415,
+        "null_q95": 1.0251253505668787,
+        "n_valid": 200,
+        "n_extreme": 159,
+        "empirical_prob": 0.795,
+        "mc_p_value": 0.7960199004975125
+      },
+      "wk_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.1049983010147646,
+        "null_mean": 0.22648955116342756,
+        "null_sd": 0.18436907373987135,
+        "null_median": 0.12151916077502306,
+        "null_q05": 0.051689726526512554,
+        "null_q95": 0.5158820467437287,
+        "n_valid": 200,
+        "n_extreme": 90,
+        "empirical_prob": 0.45,
+        "mc_p_value": 0.4527363184079602
+      },
+      "wk_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.0693253174887579,
+        "null_mean": 0.034596883478106195,
+        "null_sd": 0.019763818912220097,
+        "null_median": 0.046619209282749735,
+        "null_q05": 0.006721405695722302,
+        "null_q95": 0.05526239688176387,
+        "n_valid": 200,
+        "n_extreme": 200,
+        "empirical_prob": 1.0,
+        "mc_p_value": 1.0
+      },
+      "wk_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.7363417873469779,
+        "null_mean": 0.48944284693196727,
+        "null_sd": 0.24954264437122062,
+        "null_median": 0.42676523811148526,
+        "null_q05": 0.19357135125987052,
+        "null_q95": 0.890707450898444,
+        "n_valid": 200,
+        "n_extreme": 150,
+        "empirical_prob": 0.75,
+        "mc_p_value": 0.7512437810945274
+      },
+      "wk_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6700450672978667,
+        "null_mean": 0.7432041551584219,
+        "null_sd": 0.07959334302060589,
+        "null_median": 0.7499803294650267,
+        "null_q05": 0.6331170247547335,
+        "null_q95": 0.8544518098704775,
+        "n_valid": 200,
+        "n_extreme": 165,
+        "empirical_prob": 0.825,
+        "mc_p_value": 0.8258706467661692
+      },
+      "wk_arc_min_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.30707699648046866,
+        "null_mean": 0.46547561384851366,
+        "null_sd": 0.19246496839977115,
+        "null_median": 0.46881270357136307,
+        "null_q05": 0.19626086093586334,
+        "null_q95": 0.7601204441749083,
+        "n_valid": 200,
+        "n_extreme": 153,
+        "empirical_prob": 0.765,
+        "mc_p_value": 0.7661691542288557
+      },
+      "wk_split_half_kappa": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.6605158834735897,
+        "null_mean": 0.6494529263564623,
+        "null_sd": 0.11493934892596261,
+        "null_median": 0.6603953697400573,
+        "null_q05": 0.4468165552920427,
+        "null_q95": 0.8273823869539769,
+        "n_valid": 200,
+        "n_extreme": 100,
+        "empirical_prob": 0.5,
+        "mc_p_value": 0.5024875621890548
+      },
+      "wk_split_half_ari": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5454866136375579,
+        "null_mean": 0.546638991140267,
+        "null_sd": 0.11736990631596575,
+        "null_median": 0.5493078566223792,
+        "null_q05": 0.35802473927917006,
+        "null_q95": 0.7437492188674913,
+        "n_valid": 200,
+        "n_extreme": 105,
+        "empirical_prob": 0.525,
+        "mc_p_value": 0.527363184079602
+      },
+      "wk_split_half_nmi": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.5445917521053107,
+        "null_mean": 0.55916635806363,
+        "null_sd": 0.09388752171899485,
+        "null_median": 0.5597021604608987,
+        "null_q05": 0.40777421655325025,
+        "null_q95": 0.7167384141927939,
+        "n_valid": 200,
+        "n_extreme": 112,
+        "empirical_prob": 0.56,
+        "mc_p_value": 0.5621890547263682
+      },
+      "wk_between_var": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 1.6462253755856757,
+        "null_mean": 1.6581942325873325,
+        "null_sd": 0.006547696683503419,
+        "null_median": 1.6582159472734983,
+        "null_q05": 1.6479314082720802,
+        "null_q95": 1.6682752298115773,
+        "n_valid": 200,
+        "n_extreme": 195,
+        "empirical_prob": 0.975,
+        "mc_p_value": 0.9751243781094527
+      },
+      "lpa3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.3627808065484772,
+        "null_mean": 0.6020563888429884,
+        "null_sd": 0.11920127909871095,
+        "null_median": 0.5792966889805686,
+        "null_q05": 0.45531424282800403,
+        "null_q95": 0.8530164914382234,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.22180272080929067,
+        "null_mean": 0.17076223518073974,
+        "null_sd": 0.15617690896431632,
+        "null_median": 0.05173261475050793,
+        "null_q05": 0.04090961042725221,
+        "null_q95": 0.4065350952118099,
+        "n_valid": 200,
+        "n_extreme": 123,
+        "empirical_prob": 0.615,
+        "mc_p_value": 0.6169154228855721
+      },
+      "lpa3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.026547064452306663,
+        "null_mean": 0.045150854085907584,
+        "null_sd": 0.017747390986433305,
+        "null_median": 0.056026887412701676,
+        "null_q05": 0.020326364293250063,
+        "null_q95": 0.06316636267513268,
+        "n_valid": 200,
+        "n_extreme": 70,
+        "empirical_prob": 0.35,
+        "mc_p_value": 0.35323383084577115
+      },
+      "lpa3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11443102128687987,
+        "null_mean": 0.38614329957634097,
+        "null_sd": 0.11316248917218033,
+        "null_median": 0.40671538887248493,
+        "null_q05": 0.20171930005502517,
+        "null_q95": 0.5458170593201526,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8819523538212621,
+        "null_mean": 0.759412683009956,
+        "null_sd": 0.05877673490493881,
+        "null_median": 0.768417428065912,
+        "null_q05": 0.6359704739876089,
+        "null_q95": 0.8314382764883995,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      },
+      "lpa_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -68254.45990587864,
+        "null_mean": -68967.99034569414,
+        "null_sd": 588.5933188713108,
+        "null_median": -69003.29824163392,
+        "null_q05": -70012.24613429791,
+        "null_q95": -68099.36285696758,
+        "n_valid": 200,
+        "n_extreme": 180,
+        "empirical_prob": 0.9,
+        "mc_p_value": 0.900497512437811
+      },
+      "gmm3_arc_mean_d2": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.5509059903407628,
+        "null_mean": 0.49788483544331713,
+        "null_sd": 0.13016933884827028,
+        "null_median": 0.4851111511168045,
+        "null_q05": 0.3503281136595848,
+        "null_q95": 0.6999433192684135,
+        "n_valid": 200,
+        "n_extreme": 147,
+        "empirical_prob": 0.735,
+        "mc_p_value": 0.736318407960199
+      },
+      "gmm3_arc_mean_elevation": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.29221694700133716,
+        "null_mean": 0.06257556431478734,
+        "null_sd": 0.05775700088206308,
+        "null_median": 0.05146819201452943,
+        "null_q05": 0.026035305964077597,
+        "null_q95": 0.1095385950408471,
+        "n_valid": 200,
+        "n_extreme": 198,
+        "empirical_prob": 0.99,
+        "mc_p_value": 0.9900497512437811
+      },
+      "gmm3_arc_mean_scatter": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.11997191604674817,
+        "null_mean": 0.09155479055740713,
+        "null_sd": 0.009043263569830661,
+        "null_median": 0.09295872043277112,
+        "null_q05": 0.07448355509979376,
+        "null_q95": 0.1032993702912255,
+        "n_valid": 200,
+        "n_extreme": 199,
+        "empirical_prob": 0.995,
+        "mc_p_value": 0.9950248756218906
+      },
+      "gmm3_arc_mean_shape": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": 0.13871712729267757,
+        "null_mean": 0.34375448057112257,
+        "null_sd": 0.11981661577776703,
+        "null_median": 0.3414459690170212,
+        "null_q05": 0.17510649159631156,
+        "null_q95": 0.5727918378371856,
+        "n_valid": 200,
+        "n_extreme": 3,
+        "empirical_prob": 0.015,
+        "mc_p_value": 0.01990049751243781
+      },
+      "gmm3_arc_mean_tucker": {
+        "direction": "ge",
+        "probability_definition": "P(sim >= emp)",
+        "empirical": 0.8133603281670884,
+        "null_mean": 0.8000023918795679,
+        "null_sd": 0.06730545874722488,
+        "null_median": 0.8053451948796782,
+        "null_q05": 0.6847543771298729,
+        "null_q95": 0.8813888559875679,
+        "n_valid": 200,
+        "n_extreme": 87,
+        "empirical_prob": 0.435,
+        "mc_p_value": 0.43781094527363185
+      },
+      "gmm_delta_bic_3_vs_1": {
+        "direction": "le",
+        "probability_definition": "P(sim <= emp)",
+        "empirical": -13962.692859677132,
+        "null_mean": -8146.015840325075,
+        "null_sd": 255.79363629457157,
+        "null_median": -8166.446645884425,
+        "null_q05": -8496.33809749768,
+        "null_q95": -7733.79916079247,
+        "n_valid": 200,
+        "n_extreme": 0,
+        "empirical_prob": 0.0,
+        "mc_p_value": 0.004975124378109453
+      }
+    }
+  },
+  "gerlach_significant_types_distribution": {
+    "null1_permutation": {
+      "gerlach_n_sig_perm": {
+        "empirical": 4,
+        "n_reps": 200,
+        "mean": 0.045,
+        "median": 0.0,
+        "prob_ge_1": 0.04,
+        "prob_ge_empirical": 0.0,
+        "mc_p_value_ge_empirical": 0.004975124378109453,
+        "counts": {
+          "0": 192,
+          "1": 7,
+          "2": 1,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.96,
+          "1": 0.035,
+          "2": 0.005,
+          "3": 0.0,
+          "4": 0.0
+        }
+      },
+      "gerlach_n_sig_null2": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.245,
+        "median": 0.0,
+        "prob_ge_1": 0.235,
+        "prob_ge_empirical": 0.01,
+        "mc_p_value_ge_empirical": 0.014925373134328358,
+        "counts": {
+          "0": 153,
+          "1": 45,
+          "2": 2,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.765,
+          "1": 0.225,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        }
+      },
+      "gerlach_n_sig_null3": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.045,
+        "median": 0.0,
+        "prob_ge_1": 0.04,
+        "prob_ge_empirical": 0.005,
+        "mc_p_value_ge_empirical": 0.009950248756218905,
+        "counts": {
+          "0": 192,
+          "1": 7,
+          "2": 1,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.96,
+          "1": 0.035,
+          "2": 0.005,
+          "3": 0.0,
+          "4": 0.0
+        }
+      }
+    },
+    "null2_mvnormal": {
+      "gerlach_n_sig_perm": {
+        "empirical": 4,
+        "n_reps": 200,
+        "mean": 3.91,
+        "median": 4.0,
+        "prob_ge_1": 1.0,
+        "prob_ge_empirical": 0.91,
+        "mc_p_value_ge_empirical": 0.9104477611940298,
+        "counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 182
+        },
+        "proportions": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.09,
+          "4": 0.91
+        }
+      },
+      "gerlach_n_sig_null2": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.075,
+        "median": 0.0,
+        "prob_ge_1": 0.075,
+        "prob_ge_empirical": 0.0,
+        "mc_p_value_ge_empirical": 0.004975124378109453,
+        "counts": {
+          "0": 185,
+          "1": 15,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.925,
+          "1": 0.075,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        }
+      },
+      "gerlach_n_sig_null3": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.065,
+        "median": 0.0,
+        "prob_ge_1": 0.065,
+        "prob_ge_empirical": 0.0,
+        "mc_p_value_ge_empirical": 0.004975124378109453,
+        "counts": {
+          "0": 187,
+          "1": 13,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.935,
+          "1": 0.065,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        }
+      }
+    },
+    "null3_gaussian_copula": {
+      "gerlach_n_sig_perm": {
+        "empirical": 4,
+        "n_reps": 200,
+        "mean": 3.95,
+        "median": 4.0,
+        "prob_ge_1": 1.0,
+        "prob_ge_empirical": 0.95,
+        "mc_p_value_ge_empirical": 0.9502487562189055,
+        "counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 190
+        },
+        "proportions": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.05,
+          "4": 0.95
+        }
+      },
+      "gerlach_n_sig_null2": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.705,
+        "median": 1.0,
+        "prob_ge_1": 0.66,
+        "prob_ge_empirical": 0.045,
+        "mc_p_value_ge_empirical": 0.04975124378109453,
+        "counts": {
+          "0": 68,
+          "1": 123,
+          "2": 9,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.34,
+          "1": 0.615,
+          "2": 0.045,
+          "3": 0.0,
+          "4": 0.0
+        }
+      },
+      "gerlach_n_sig_null3": {
+        "empirical": 2,
+        "n_reps": 200,
+        "mean": 0.05,
+        "median": 0.0,
+        "prob_ge_1": 0.05,
+        "prob_ge_empirical": 0.0,
+        "mc_p_value_ge_empirical": 0.004975124378109453,
+        "counts": {
+          "0": 190,
+          "1": 10,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "proportions": {
+          "0": 0.95,
+          "1": 0.05,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        }
+      }
+    }
+  },
+  "incremental_validity": null
+}

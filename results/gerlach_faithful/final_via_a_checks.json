@@ -1,0 +1,117 @@
+{
+  "ipip120_faithful": {
+    "n": 410376,
+    "bw_nn": 0.19997720245966202,
+    "n_sig_perm": 0,
+    "max_enrichment_perm": 1.677382556994663,
+    "n_distinct_modes": 1,
+    "modes": [
+      [
+        -0.5594947283361469,
+        0.19735174523974575,
+        -0.16427734302952804,
+        0.11990852409010075,
+        0.2629029667542277
+      ]
+    ],
+    "n_valleys": 0,
+    "n_sig_pairs": 0
+  },
+  "positive_control": [
+    {
+      "K_true": 3,
+      "delta_sep": 1.5,
+      "bw_nn": 0.3929554355284876,
+      "modes_found": 1,
+      "valleys": 0,
+      "pairs": 3
+    },
+    {
+      "K_true": 3,
+      "delta_sep": 2.5,
+      "bw_nn": 0.387807426901848,
+      "modes_found": 1,
+      "valleys": 0,
+      "pairs": 3
+    },
+    {
+      "K_true": 3,
+      "delta_sep": 3.5,
+      "bw_nn": 0.37421403768568934,
+      "modes_found": 3,
+      "valleys": 3,
+      "pairs": 3
+    },
+    {
+      "K_true": 3,
+      "delta_sep": 4.5,
+      "bw_nn": 0.35949143889308877,
+      "modes_found": 3,
+      "valleys": 3,
+      "pairs": 3
+    },
+    {
+      "K_true": 4,
+      "delta_sep": 1.5,
+      "bw_nn": 0.38991558768841417,
+      "modes_found": 1,
+      "valleys": 0,
+      "pairs": 6
+    },
+    {
+      "K_true": 4,
+      "delta_sep": 2.5,
+      "bw_nn": 0.3848231895389017,
+      "modes_found": 1,
+      "valleys": 0,
+      "pairs": 6
+    },
+    {
+      "K_true": 4,
+      "delta_sep": 3.5,
+      "bw_nn": 0.368034876301274,
+      "modes_found": 4,
+      "valleys": 6,
+      "pairs": 6
+    },
+    {
+      "K_true": 4,
+      "delta_sep": 4.5,
+      "bw_nn": 0.3464337344263236,
+      "modes_found": 4,
+      "valleys": 6,
+      "pairs": 6
+    }
+  ],
+  "representation_experiment_ipip300": [
+    {
+      "representation": "Domains (standardized)",
+      "d2_native": 0.5276792258688082,
+      "phi_native": 0.8311631919725228,
+      "d2_domain_coords": 0.5276792258688082,
+      "phi_domain_coords": 0.8311631919725228
+    },
+    {
+      "representation": "Pure orthogonal rotation Y=XQ (control)",
+      "d2_native": NaN,
+      "phi_native": NaN,
+      "d2_domain_coords": 0.5276792258688093,
+      "phi_domain_coords": 0.8311631919725221
+    },
+    {
+      "representation": "ZCA Whitening Z=X R^{-1/2}",
+      "d2_native": 0.6984863140328518,
+      "phi_native": 0.767991949388385,
+      "d2_domain_coords": 0.42135837456297764,
+      "phi_domain_coords": 0.8602504995499372
+    },
+    {
+      "representation": "FA + Varimax (Gerlach scores)",
+      "d2_native": 0.682229040601761,
+      "phi_native": 0.768252604989701,
+      "d2_domain_coords": 0.45664127232552126,
+      "phi_domain_coords": 0.851970432776517
+    }
+  ],
+  "elapsed_sec": 138.81371241714805
+}

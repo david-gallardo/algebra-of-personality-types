@@ -1,0 +1,30 @@
+# Raw and processed empirical datasets (obtain from original public sources; see README.md)
+data/
+external/
+
+# Large simulation/replicate binary outputs and archives
+*.parquet
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# Local environment and agent/editor artifacts
+activate_env.sh
+PROJECT_RULES.md
+.antigravityignore
+.venv/
+venv/
+.DS_Store
+.Rhistory
+*.log
+results/AUDIT_SUMMARY.html
+
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+build/
+dist/

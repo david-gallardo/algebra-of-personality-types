@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Multi-dataset empirical contrast against unimodal null models (BFI-2 ES and IPIP-NEO-300).}
+\label{tab:empirical_all}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrc}
+\toprule
+Dataset & $N$ & $\lambda_2/\lambda_1$ & $D^2_{\mathrm{ARC}}$ ($p_{\mathrm{N3}}$) & $\bar{\phi}$ ($p_{\mathrm{N3}}$) & $\kappa$ ($p_{\mathrm{N1}}$ / $p_{\mathrm{N3}}$) & $\Delta\mathrm{BIC}_{\mathrm{LPA3-1}}$ & $\Delta\mathrm{BIC}_{\mathrm{LPA3-GMM1}}$ & $\Delta\mathrm{BIC}_{\mathrm{GMM3-1}}$ & Gerlach (P/N2/N3) \\
+\midrule
+BFI-2 ES & 1,146 & 0.582 & 1.111 (0.578) & 0.574 (0.666) & 0.698 (0.001/0.068) & -338.7 & +64.2 & +150.6 & 4/1/1 \\
+IPIP-300 Domains & 145,388 & 0.611 & 0.911 (0.796) & 0.670 (0.826) & 0.661 (0.005/0.502) & -68,254.5 & +24,924.0 & -13,962.7 & 4/1/1 \\
+IPIP-300 Varimax & 145,388 & 1.000 & 1.313 (0.348) & 0.520 (0.328) & 0.556 (0.030/0.020) & -14,010.8 & -14,129.7 & -17,877.8 & 1/2/1 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

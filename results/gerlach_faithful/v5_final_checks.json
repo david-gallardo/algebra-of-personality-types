@@ -1,0 +1,103 @@
+{
+  "ipip300_random_basin_mass": {
+    "1.00x": {
+      "h": 0.25354394219003656,
+      "primary_count": 463,
+      "primary_pct": 92.6,
+      "n_modes": 22,
+      "max_secondary_count": 17,
+      "max_secondary_rel_density": 0.9986620819773817
+    },
+    "1.15x": {
+      "h": 0.29157553351854204,
+      "primary_count": 494,
+      "primary_pct": 98.8,
+      "n_modes": 7,
+      "max_secondary_count": 1,
+      "max_secondary_rel_density": 0.007079821904557622
+    },
+    "1.25x": {
+      "h": 0.3169299277375457,
+      "primary_count": 498,
+      "primary_pct": 99.6,
+      "n_modes": 3,
+      "max_secondary_count": 1,
+      "max_secondary_rel_density": 0.005776821564472196
+    }
+  },
+  "null_copula_checks": {
+    "Null3_GaussianCopula": {
+      "max_abs_delta_R": 0.012231200192297731,
+      "primary_basin_200": 105,
+      "max_secondary_basin_200": 39
+    },
+    "Null4_StudentTCopula": {
+      "max_abs_delta_R": 0.009743762237621717,
+      "primary_basin_200": 184,
+      "max_secondary_basin_200": 5
+    }
+  },
+  "positive_control_power": [
+    {
+      "K_true": 3,
+      "delta": 2.5,
+      "exact_hits_of_10": 0
+    },
+    {
+      "K_true": 3,
+      "delta": 3.0,
+      "exact_hits_of_10": 10
+    },
+    {
+      "K_true": 3,
+      "delta": 3.5,
+      "exact_hits_of_10": 10
+    },
+    {
+      "K_true": 4,
+      "delta": 2.5,
+      "exact_hits_of_10": 0
+    },
+    {
+      "K_true": 4,
+      "delta": 3.0,
+      "exact_hits_of_10": 8
+    },
+    {
+      "K_true": 4,
+      "delta": 3.5,
+      "exact_hits_of_10": 10
+    }
+  ],
+  "soto_subsample_breakdown": {
+    "S1_Adults": {
+      "k": 8,
+      "mean_linear": 0.2747371258094707,
+      "mean_delta_arc": -0.0008801043167054523,
+      "mean_delta_gmm4": 0.004851703247341887,
+      "n_gmm4_gt_001": 2
+    },
+    "S1_Young": {
+      "k": 26,
+      "mean_linear": 0.103530196510737,
+      "mean_delta_arc": -0.00027479535806721546,
+      "mean_delta_gmm4": 0.010216167777171952,
+      "n_gmm4_gt_001": 7
+    },
+    "S2_Adults": {
+      "k": 9,
+      "mean_linear": 0.08548064130112815,
+      "mean_delta_arc": -0.0014435826915801667,
+      "mean_delta_gmm4": 0.0021804444692309554,
+      "n_gmm4_gt_001": 1
+    },
+    "S2_Young": {
+      "k": 29,
+      "mean_linear": 0.09700026691446506,
+      "mean_delta_arc": -8.077892043306553e-05,
+      "mean_delta_gmm4": 0.003963505295852752,
+      "n_gmm4_gt_001": 5
+    }
+  },
+  "elapsed_sec": 705.4578846246004
+}

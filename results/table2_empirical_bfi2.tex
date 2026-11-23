@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\caption{Empirical contrast of the Spanish BFI-2 sample ($N = 1,146$) against Null 1 (independent column permutation), Null 2 (correlated multivariate normal $\mathcal{N}_5(\mathbf{0}, \mathbf{R}_{\mathrm{emp}})$), and Null 3 (calibrated Gaussian copula with empirical marginals). Core rows use 1,000 null replicates/model; Gerlach et al.\ (2018) rows use the corrected add-on ($B = 500$ internal nulls on the empirical sample, 100 null replicates/model with $B = 200$, $\alpha = 0.01$). Null cells report mean [2.5\%, 97.5\%] percentile interval and empirical tail probability $P(S_{\mathrm{sim}} \ge S_{\mathrm{emp}})$ (or $P(D^2_{\mathrm{sim}} \le D^2_{\mathrm{emp}})$ for distances).}
+\label{tab:empirical_bfi2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrcccccc}
+\toprule
+ & & \multicolumn{2}{c}{Null 1 (Permutation)} & \multicolumn{2}{c}{Null 2 (MVN $\mathbf{R}_{\mathrm{emp}}$)} & \multicolumn{2}{c}{Null 3 (Gaussian Copula)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Metric & Empirical & Mean [2.5\%, 97.5\%] & $p_{\mathrm{emp}}$ & Mean [2.5\%, 97.5\%] & $p_{\mathrm{emp}}$ & Mean [2.5\%, 97.5\%] & $p_{\mathrm{emp}}$ \\
+\midrule
+Global $D^2_{\mathrm{ARC}}$ & 1.111 & 1.550 [0.664, 2.330] & 0.182 & 1.151 [0.714, 1.856] & 0.523 & 1.123 [0.697, 1.785] & 0.578 \\
+Elevation (Nivell) & 0.195 & 0.294 [0.011, 0.991] & 0.467 & 0.312 [0.029, 0.883] & 0.476 & 0.295 [0.035, 0.834] & 0.449 \\
+Scatter (Dispersi\'o) & 0.111 & 0.070 [0.007, 0.255] & 0.797 & 0.058 [0.006, 0.149] & 0.891 & 0.066 [0.007, 0.157] & 0.831 \\
+Shape (Forma) & 0.805 & 1.187 [0.389, 2.000] & 0.211 & 0.781 [0.236, 1.569] & 0.524 & 0.761 [0.202, 1.490] & 0.555 \\
+Tucker $\bar{\phi}$ & 0.574 & 0.439 [0.147, 0.766] & 0.221 & 0.572 [0.358, 0.737] & 0.549 & 0.603 [0.380, 0.757] & 0.666 \\
+Split-half $\kappa$ & 0.698 & 0.290 [0.188, 0.421] & 0.000 & 0.543 [0.375, 0.737] & 0.060 & 0.548 [0.367, 0.744] & 0.067 \\
+$\Delta\mathrm{BIC}$ (3-diag $-$ 1-full) & 64.2 & 5.0 [-12.8, 24.4] & 0.000 & 186.1 [147.7, 227.2] & 1.000 & 107.6 [60.2, 159.2] & 0.958 \\
+$\Delta\mathrm{BIC}_{\mathrm{LPA}}$ (3 $-$ 1) & -338.7 & 65.7 [46.9, 85.7] & 0.000 & -227.4 [-307.6, -148.8] & 0.001 & -307.2 [-390.8, -221.7] & 0.225 \\
+$\Delta\mathrm{BIC}_{\mathrm{GMM}}$ (3 $-$ 1) & 150.6 & 177.7 [151.0, 199.1] & 0.024 & 253.3 [231.9, 270.3] & 0.000 & 167.6 [125.3, 205.5] & 0.183 \\
+Gerlach iso $h{=}0.50$, $e{>}1.25$ (Perm) & 4.00 & 0.11 [0.00, 1.00] & 0.000 & 2.11 [1.00, 3.00] & 0.010 & 2.04 [0.00, 3.52] & 0.030 \\
+Gerlach iso $h{=}0.50$, $e{>}1.25$ (Null 2) & 1.00 & 0.05 [0.00, 1.00] & 0.050 & 0.04 [0.00, 1.00] & 0.040 & 0.10 [0.00, 1.00] & 0.100 \\
+Gerlach iso $h{=}0.50$, $e{>}1.25$ (Null 3) & 1.00 & 0.02 [0.00, 0.00] & 0.020 & 0.01 [0.00, 0.00] & 0.010 & 0.03 [0.00, 0.52] & 0.030 \\
+Gerlach iso $h{=}0.50$, $e{>}1.00$ (Perm) & 4.00 & 0.12 [0.00, 1.00] & 0.000 & 2.20 [1.00, 4.00] & 0.040 & 2.06 [0.00, 3.52] & 0.030 \\
+Gerlach iso $h{=}0.50$, $e{>}1.00$ (Null 2) & 1.00 & 0.05 [0.00, 1.00] & 0.050 & 0.05 [0.00, 1.00] & 0.050 & 0.10 [0.00, 1.00] & 0.100 \\
+Gerlach iso $h{=}0.50$, $e{>}1.00$ (Null 3) & 1.00 & 0.02 [0.00, 0.00] & 0.020 & 0.01 [0.00, 0.00] & 0.010 & 0.03 [0.00, 0.52] & 0.030 \\
+Gerlach Scott, $e{>}1.25$ (Perm) & 4.00 & 0.12 [0.00, 1.00] & 0.000 & 2.55 [1.00, 4.00] & 0.100 & 2.38 [1.00, 4.00] & 0.100 \\
+Gerlach Scott, $e{>}1.25$ (Null 2) & 1.00 & 0.04 [0.00, 1.00] & 0.040 & 0.04 [0.00, 1.00] & 0.040 & 0.04 [0.00, 1.00] & 0.040 \\
+Gerlach Scott, $e{>}1.25$ (Null 3) & 1.00 & 0.03 [0.00, 0.52] & 0.030 & 0.02 [0.00, 0.00] & 0.020 & 0.04 [0.00, 1.00] & 0.040 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
