@@ -57,6 +57,10 @@ Raw and processed empirical datasets are excluded from this repository due to fi
    python scripts/prepare_ipip120_gerlach.py
    ```
 3. **Soto (2019) LOOPR** ($N = 6{,}126$): Download from OSF ([https://osf.io/3d485/](https://osf.io/3d485/)) and place under `data/raw/soto2019/`.
+4. **Cross-Domain Clinical Psychopathology (HiTOP-SR & HiTOP MASEM)**:
+   - **Ringwald, Forbes & Wright (2023)** meta-analytic MASEM matrices: OSF ([https://osf.io/pqmtc/](https://osf.io/pqmtc/)).
+   - **US University of Kansas HiTOP-SR** ($N = 411$, 405 items): Distributed in the official R package `hitop` v0.2.0 ([https://github.com/jmgirard/hitop](https://github.com/jmgirard/hitop)).
+   - **Czech HiTOP-CZ** ($N = 443$, 76 scale scores; Doubková & Rossi, 2026): Download `dataset.csv` from OSF ([https://osf.io/jx8h7/](https://osf.io/jx8h7/)) and place under `data/raw/hitop_empirical/czech_hitop/`.
 
 ## Reproducing the Analyses
 
@@ -74,7 +78,13 @@ python scripts/run_empirical_comparison.py \
   --cols-neoac N E O A C \
   --reps 1000 --n-jobs -2 --seed 20261121
 
-# 4. Build tables, vector figures, and AUDIT_SUMMARY.md
+# 4. Cross-domain individual-level HiTOP-SR validation (KU US + Czech Republic)
+Rscript r/score_hitopsr.R
+python scripts/hitop_01_score_and_qc.py
+python scripts/hitop_03_run_hitopsr.py
+python scripts/hitop_03b_revision_checks.py
+
+# 5. Build tables, vector figures, and AUDIT_SUMMARY.md
 python scripts/build_figures_and_tables.py
 python scripts/build_multidataset_figures.py
 python scripts/build_via_a_figures.py

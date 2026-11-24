@@ -13,6 +13,7 @@ external/
 activate_env.sh
 PROJECT_RULES.md
 .antigravityignore
+docs/hitop_empirical/antigravity_hitop_research_pack/
 .venv/
 venv/
 .DS_Store
