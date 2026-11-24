@@ -1,0 +1,10 @@
+metric,manuscript_or_archived,reconstructed_from_osf_kp572,abs_discrepancy,notes
+N_participants,1146,1146,0,Exact match: OSF Data/Study 1/BFI-2 Full data (study 1).csv
+SHA256_raw_file,ec787ff7cca2a274,ec787ff7cca2a274,0 (identical),Bit-for-bit identical file
+Max_domain_score_diff,0.0,0.000e+00,0.000e+00,Independent scoring from R script key vs processed CSV
+Max_R_entry_diff,0.0,1.665e-16,1.665e-16,Reconstructed R vs archived bfi2_es_study1_summary.json
+lambda_1,1.792,1.792328,0.000328,Matches Table 1 within 3-decimal rounding
+lambda_2,1.043,1.043053,0.000053,Matches Table 1 within 3-decimal rounding
+lambda2_over_lambda1,0.582,0.581954,0.000046,Matches Table 1 within 3-decimal rounding
+det_R,0.662,0.661648,0.000352,Matches Table 1 within 3-decimal rounding
+origin_density_ratio,1.229,1.229381,0.000381,Matches Table 1 (< 1.25; v15 prose fixed in v16)

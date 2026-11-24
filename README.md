@@ -50,7 +50,10 @@ pytest -v
 
 Raw and processed empirical datasets are excluded from this repository due to file size and third-party licensing. To reproduce the empirical scripts, place the publicly available datasets under `data/raw/` and run the preparation scripts:
 
-1. **Spanish BFI-2 Study 1** ($N = 1{,}146$): Place processed domain scores at `data/processed/bfi2_study1_domains.csv` with columns `N,E,O,A,C`.
+1. **Spanish BFI-2 Study 1** ($N = 1{,}146$ extended Study 1 norming archive; Gallardo-Pujol et al., 2022, DOI: `10.1027/2698-1866/a000020`): Download `Data/Study 1/BFI-2 Full data (study 1).csv` (CC-By 4.0) from OSF ([https://osf.io/kp572/](https://osf.io/kp572/)), place at `data/raw/bfi2_study1_raw.csv`, and run:
+   ```bash
+   python scripts/prepare_bfi2_es.py
+   ```
 2. **IPIP-NEO-300 & IPIP-NEO-120 (Johnson, 2014)**: Download from OSF ([https://osf.io/wxvth/](https://osf.io/wxvth/)), place under `data/raw/ipip300/` and `data/raw/ipip120/`, and run:
    ```bash
    python scripts/prepare_ipip300.py

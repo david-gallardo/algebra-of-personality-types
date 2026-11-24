@@ -1,0 +1,76 @@
+{
+  "gate_decision": "PASS",
+  "osf_project": "https://osf.io/kp572/",
+  "doi": "10.1027/2698-1866/a000020",
+  "license": "CC-By Attribution 4.0 International",
+  "sha256_osf_study1": "ec787ff7cca2a27495beee5c1ef6d37d537fc75d1a0c78c1b35818662749b68c",
+  "sha256_local_raw": "ec787ff7cca2a27495beee5c1ef6d37d537fc75d1a0c78c1b35818662749b68c",
+  "sha256_exact_match": true,
+  "row_counts": {
+    "osf_study1_full_csv": 1146,
+    "osf_study1_complete_60_items": 1146,
+    "osf_study1_na_item_cells": 0,
+    "osf_efa_full_data_csv": 999,
+    "osf_efa_matches_first_N_rows_of_study1": false,
+    "osf_study3_csv": 419,
+    "published_study1_plus_study3": 1419,
+    "local_raw_csv": 1146,
+    "local_processed_csv": 1146
+  },
+  "demographics_study1_1146": {
+    "age_min": 17.0,
+    "age_max": 75.0,
+    "age_mean": 22.81151832460733,
+    "age_sd": 10.850524224476537,
+    "gender_counts": {
+      "2": 964,
+      "1": 182
+    }
+  },
+  "domain_descriptives_reconstructed": {
+    "N": {
+      "mean": 3.1407068062827226,
+      "sd": 0.7088363568716811
+    },
+    "E": {
+      "mean": 3.480948225712624,
+      "sd": 0.5934816004952446
+    },
+    "O": {
+      "mean": 3.89805119255381,
+      "sd": 0.580737691872009
+    },
+    "A": {
+      "mean": 3.8779086678301344,
+      "sd": 0.48783791483087985
+    },
+    "C": {
+      "mean": 3.406050029086678,
+      "sd": 0.65971355716296
+    }
+  },
+  "verification": {
+    "max_abs_domain_score_diff_vs_local_processed": 0.0,
+    "max_abs_R_diff_vs_archived_summary": 1.6653345369377348e-16,
+    "eigenvalues_reconstructed": [
+      1.7923276984502496,
+      1.0430527597173345,
+      0.8527718763440167,
+      0.7792711037101181,
+      0.5325765617782807
+    ],
+    "eigenvalues_archived": [
+      1.7923276984502494,
+      1.043052759717335,
+      0.8527718763440165,
+      0.7792711037101181,
+      0.5325765617782809
+    ],
+    "lambda2_over_lambda1_reconstructed": 0.5819542713194793,
+    "lambda2_over_lambda1_archived": 0.5819542713194796,
+    "det_R_reconstructed": 0.6616482743214482,
+    "det_R_archived": 0.6616482743214482,
+    "origin_density_ratio_reconstructed": 1.2293807483178223,
+    "manuscript_table1_origin_density_ratio": 1.229
+  }
+}
