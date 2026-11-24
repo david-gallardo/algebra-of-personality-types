@@ -1,0 +1,65 @@
+# Locked Preregistration Configuration — Empirical HiTOP Validation (Tier A)
+# Status: PENDING_GATE_G2_APPROVAL (do not execute confirmatory script until approved)
+
+study:
+  name: "hitop_empirical_validation_tier_a"
+  base_seed: 20261121
+  rng_scheme: "numpy.random.SeedSequence"
+
+cohorts:
+  ku:
+    scored_csv: "data/processed/hitop_empirical/ku_hitopsr_scored.csv"
+    id_col: "participant"
+    r_package_version: "hitop==0.2.0 (commit 404f466)"
+  cz:
+    raw_csv: "data/raw/hitop_empirical/czech_hitop/dataset.csv"
+    id_col: "ResponseId"
+    osf_sha256: "38b7e4e683af96b463aff61fc8a9b3b3bd0465d819287e774f46ee2c85a4eb75"
+
+measurement:
+  primary_n_spectra: 5
+  primary_spectrum_order: ["INT", "DET", "TD", "A_EXT", "D_EXT"]
+  sensitivity_n_spectra: 6
+  sensitivity_spectrum_order: ["INT", "DET", "TD", "A_EXT", "D_EXT", "SOM"]
+  max_scale_missing_frac: 0.25
+  primary_standardization: "within"
+  sensitivity_standardization: "pooled_raw_mean"
+
+clustering:
+  primary_k: 3
+  sensitivity_k: [4]
+  primary_protocol:
+    name: "matched_ward_plus_9_kmeanspp"
+    n_kmeanspp_starts: 9
+    ward_subsample: 2000
+  sensitivity_protocol:
+    name: "matched_single_start_ward"
+    n_kmeanspp_starts: 0
+    ward_subsample: 2000
+
+null_models:
+  codes: ["I0", "I1", "C0", "C1"]
+  primary_null: "C0"
+  n_replicates_primary: 5000
+  n_replicates_sensitivity: 2000
+  copula_calibration_n: 40000
+  copula_calibration_tol: 0.0001
+
+primary_endpoint:
+  name: "cross_cohort_full_tucker_k3_under_C0"
+  matching: "hungarian_full_tucker"
+  multiplicity_secondary: "holm_bonferroni"
+  participant_bootstrap_reps: 2000
+
+topography:
+  bandwidth_multipliers: [0.80, 1.00, 1.15, 1.25, 1.50]
+  random_starts: 400
+  merge_radius: 0.10
+  positive_control_n: [411, 443]
+  positive_control_deltas: [1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+  positive_control_reps: 50
+
+external_prediction_cz:
+  cv_splits: 10
+  continuous_outcomes: ["PANAS_PA", "PANAS_NA"]  # explicitly labeled same-source affect
+  binary_outcomes: ["Mental_health", "Treatment"]

@@ -1,0 +1,5 @@
+cohort,n_spectra,n_raw,n_duplicate_ids_removed,n_dropped_missing,n_analytic_complete,retention_pct
+KU,5,411,0,0,411,100.0
+KU,6,411,0,0,411,100.0
+CZ,5,443,0,4,439,99.1
+CZ,6,443,0,4,439,99.1

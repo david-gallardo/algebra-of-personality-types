@@ -1,0 +1,77 @@
+"Scale","camelCase","nItems","alpha","omega"
+"Agoraphobia","agoraphobia",5,0.820226888517446,0.840382735975932
+"Antisocial Behavior","antisocialBehavior",8,0.350827376834763,NA
+"Appearance Focus","appearanceFocus",5,0.776037714059459,0.780460753315705
+"Appetite Loss","appetiteLoss",3,0.762001982918498,0.796942308718187
+"Binge Eating","bingeEating",3,0.84856125598152,0.848552151860242
+"Bodily Distress","bodilyDistress",6,0.78687406385707,0.794375020367281
+"Body Dissatisfaction","bodyDissatisfaction",4,0.897003385263309,0.897549470862055
+"Callousness","callousness",6,0.795185792401513,0.800386351027582
+"Checking","checking",5,0.835042721964751,0.836036846614589
+"Cleaning","cleaning",6,0.784956378889842,0.793425467340194
+"Cognitive Problems","cognitiveProblems",5,0.858148454237253,0.858594028282932
+"Conversion Symptoms","conversionSymptoms",7,0.450482150895051,0.367319101738171
+"Counting","counting",5,0.714084544884484,0.720462122149445
+"Dietary Restraint","dietaryRestraint",5,0.821094587563487,0.820927744518281
+"Difficulties Reaching Orgasm","difficultiesReachingOrgasm",3,0.797307186004626,0.847601940015062
+"Disease Conviction","diseaseConviction",4,0.785124508250745,0.786073032742555
+"Dishonesty","dishonesty",8,0.841707799593642,0.856376751706069
+"Disorganization","disorganization",7,0.782853917587341,0.785219277639556
+"Dissociation","dissociation",6,0.79031008241555,0.790670187642796
+"Distress-Dysphoria","distressDysphoria",16,0.942789216981355,0.943243962997691
+"Domineering","domineering",6,0.853739860329383,0.85511644137164
+"Eccentricity","eccentricity",5,0.784202504670076,0.80818655261118
+"Emotionality","emotionality",11,0.908519061804138,0.913488086326095
+"Entitlement","entitlement",6,0.6751357160791,0.681323134601523
+"Excessive Exercise","excessiveExercise",5,0.832166555706326,0.83409249967293
+"Excoriation","excoriation",3,0.79263504759759,0.792983821496298
+"Exhibitionism","exhibitionism",5,0.819790307637038,0.829173001810244
+"Fantasy Proneness","fantasyProneness",6,0.828087116961392,0.835348805859602
+"Food Selectivity","foodSelectivity",4,0.84101170270647,0.843125800114425
+"Gambling","gambling",5,0.446183379937756,0.472626311481342
+"Gaming","gaming",4,0.794207905619749,0.812038297416028
+"Grandiosity","grandiosity",6,0.705420402070227,0.709456327174926
+"Health Anxiety","healthAnxiety",4,0.794871490350427,0.799132829970991
+"Hoarding","hoarding",6,0.765442716621395,0.774191917963046
+"Hyperdeliberation","hyperdeliberation",6,0.833210306300466,0.835872139834737
+"Hypervigilance","hypervigilance",6,0.77821309343813,0.77778836043866
+"Insomnia","insomnia",4,0.81202905872418,0.821595054626741
+"Low Sexual Arousal","lowSexualArousal",3,0.745909092456549,0.764939643379768
+"Low Sexual Interest","lowSexualInterest",3,0.758533871869623,0.78065905926338
+"Manic Energy","manicEnergy",7,0.733960724308818,0.735453453405685
+"Mistrust","mistrust",8,0.822176579871116,0.829082391050905
+"Muscle Building","muscleBuilding",5,0.804606260220194,0.83524884271406
+"Nightmares","nightmares",3,0.824446550612117,0.828550617860649
+"Non-persistence","nonPersistence",5,0.811564723420233,0.818337719220703
+"Non-planfulness","nonPlanfulness",5,0.799659226478915,0.801594212564359
+"Non-suicidal Self-injury","nonSuicidalSelfInjury",6,0.853363416349228,0.863597862575511
+"Oppositionality","oppositionality",6,0.751904910119921,0.748395733115021
+"Panic","panic",5,0.703155582381487,0.729407731586083
+"Paraphilias","paraphilias",5,0.480485569047271,0.541426403206237
+"Perfectionism","perfectionism",5,0.858555221932163,0.86236307317872
+"Premature Orgasm","prematureOrgasm",4,0.722300285118347,0.740044325464201
+"Problematic Shopping","problematicShopping",4,0.806027829559015,0.818240175968486
+"Purging","purging",3,0.629561541987067,0.633781327830683
+"Reality Distortion","realityDistortion",11,0.729420184606317,0.743557351121673
+"Restlessness","restlessness",5,0.80666737968635,0.816751484982403
+"Restricted Affectivity","restrictedAffectivity",5,0.823486749211342,0.829969393435202
+"Restricted Eating","restrictedEating",4,0.838902078147557,0.843131156359017
+"Rigidity","rigidity",5,0.72930736683598,0.729138407591443
+"Risk Aversion","riskAversion",6,0.778313721557125,0.781964278009452
+"Risk Taking","riskTaking",4,0.80974022861248,0.81167249722924
+"Risky Sex","riskySex",4,0.68948026848985,0.711681477431938
+"Romantic Disinterest","romanticDisinterest",5,0.820563084238766,0.826906379517598
+"Sex-Related Substance Use","sexRelatedSubstanceUse",4,0.637427725633665,0.66323529145674
+"Sexual Distress","sexualDistress",4,0.834169113341821,0.837332357105341
+"Sexual Pain","sexualPain",3,0.766801689499683,0.768455871272192
+"Social Aggression","socialAggression",6,0.744853330952553,0.770325663979887
+"Social Aloofness","socialAloofness",5,0.82350761127021,0.829866998219145
+"Social Anxiety","socialAnxiety",5,0.81681845774974,0.817514715470266
+"Somatic Preoccupation","somaticPreoccupation",5,0.758081137684271,0.765302935437299
+"Specific Phobia Index","specificPhobiaIndex",12,0.756907002244256,0.7669386949001
+"Submissiveness","submissiveness",4,0.780759305873699,0.787936974481358
+"Suicidality","suicidality",4,0.739591113282319,0.784612099405762
+"Trauma Reactions","traumaReactions",5,0.796385125858424,0.793877534510338
+"Trichotillomania","trichotillomania",3,0.431510300044784,NA
+"Well-being","wellBeing",5,0.795896136404843,0.796412192402153
+"Workaholism","workaholism",5,0.787108421784671,0.7898651371411
