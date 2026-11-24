@@ -1,9 +1,9 @@
 {
-  "elapsed_sec": 154.48036024998873,
+  "elapsed_sec": 141.48288045823574,
   "factorial_full_and_shape": {
     "K3": {
-      "emp_full": 0.9354576211509918,
-      "emp_shape": 0.6988359705774317,
+      "emp_full": 0.9354576211509921,
+      "emp_shape": 0.6988359705774322,
       "nulls": {
         "I0": {
           "full_mean": 0.45692624477467464,
@@ -132,8 +132,8 @@
       }
     },
     "K4": {
-      "emp_full": 0.8485884581132943,
-      "emp_shape": 0.5536821669554659,
+      "emp_full": 0.8485884581132944,
+      "emp_shape": 0.5536821669554657,
       "nulls": {
         "I0": {
           "full_mean": 0.5235955789502407,
@@ -367,10 +367,270 @@
       "delta_sd": 2.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.94895876,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.819786,
+          "bandwidth_used": 0.942754
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.827335,
+          "bandwidth_used": 0.951435
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816454,
+          "bandwidth_used": 0.938922
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.837294,
+          "bandwidth_used": 0.962889
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.825725,
+          "bandwidth_used": 0.949583
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816883,
+          "bandwidth_used": 0.939415
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.832888,
+          "bandwidth_used": 0.957822
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.835499,
+          "bandwidth_used": 0.960824
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.835844,
+          "bandwidth_used": 0.961221
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.822901,
+          "bandwidth_used": 0.946337
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81801,
+          "bandwidth_used": 0.940712
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.84591,
+          "bandwidth_used": 0.972796
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.838195,
+          "bandwidth_used": 0.963925
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.823125,
+          "bandwidth_used": 0.946594
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.824145,
+          "bandwidth_used": 0.947766
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813014,
+          "bandwidth_used": 0.934966
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.824965,
+          "bandwidth_used": 0.948709
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.838667,
+          "bandwidth_used": 0.964467
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803046,
+          "bandwidth_used": 0.923502
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802243,
+          "bandwidth_used": 0.92258
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813093,
+          "bandwidth_used": 0.935057
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.833362,
+          "bandwidth_used": 0.958366
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.826622,
+          "bandwidth_used": 0.950615
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.832895,
+          "bandwidth_used": 0.957829
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.821637,
+          "bandwidth_used": 0.944883
+        }
       ]
     },
     "N411_K3_d3.0": {
@@ -379,10 +639,271 @@
       "delta_sd": 3.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.04,
+      "mean_bandwidth_used": 0.9333716400000001,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.808854,
+          "bandwidth_used": 0.930182
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797295,
+          "bandwidth_used": 0.91689
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.807676,
+          "bandwidth_used": 0.928827
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.799948,
+          "bandwidth_used": 0.919941
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.830383,
+          "bandwidth_used": 0.954941
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815848,
+          "bandwidth_used": 0.938225
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.829074,
+          "bandwidth_used": 0.953435
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.809203,
+          "bandwidth_used": 0.930583
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.805168,
+          "bandwidth_used": 0.925944
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.808545,
+          "bandwidth_used": 0.929827
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812341,
+          "bandwidth_used": 0.934192
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.79306,
+          "bandwidth_used": 0.912019
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.822026,
+          "bandwidth_used": 0.94533
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81803,
+          "bandwidth_used": 0.940734
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794196,
+          "bandwidth_used": 0.913325
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.814321,
+          "bandwidth_used": 0.936469
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.818748,
+          "bandwidth_used": 0.94156
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.82212,
+          "bandwidth_used": 0.945438
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.818997,
+          "bandwidth_used": 0.941846
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791306,
+          "bandwidth_used": 0.910002
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997567,
+            0.002433
+          ],
+          "h_nn": 0.795523,
+          "bandwidth_used": 0.914851
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.82269,
+          "bandwidth_used": 0.946094
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804955,
+          "bandwidth_used": 0.925698
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.826421,
+          "bandwidth_used": 0.950384
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.82396,
+          "bandwidth_used": 0.947554
+        }
       ]
     },
     "N411_K3_d3.5": {
@@ -391,10 +912,270 @@
       "delta_sd": 3.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.92730508,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793703,
+          "bandwidth_used": 0.912759
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.788432,
+          "bandwidth_used": 0.906697
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816017,
+          "bandwidth_used": 0.93842
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.80855,
+          "bandwidth_used": 0.929833
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.805634,
+          "bandwidth_used": 0.926479
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815988,
+          "bandwidth_used": 0.938386
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803069,
+          "bandwidth_used": 0.92353
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816255,
+          "bandwidth_used": 0.938693
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806294,
+          "bandwidth_used": 0.927238
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795107,
+          "bandwidth_used": 0.914373
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.821281,
+          "bandwidth_used": 0.944473
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.820098,
+          "bandwidth_used": 0.943113
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.822249,
+          "bandwidth_used": 0.945587
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.809416,
+          "bandwidth_used": 0.930829
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775581,
+          "bandwidth_used": 0.891918
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.80724,
+          "bandwidth_used": 0.928326
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791218,
+          "bandwidth_used": 0.9099
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.79373,
+          "bandwidth_used": 0.91279
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795551,
+          "bandwidth_used": 0.914884
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.80859,
+          "bandwidth_used": 0.929879
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.819503,
+          "bandwidth_used": 0.942429
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.814034,
+          "bandwidth_used": 0.93614
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.817326,
+          "bandwidth_used": 0.939925
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812125,
+          "bandwidth_used": 0.933943
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801811,
+          "bandwidth_used": 0.922083
+        }
       ]
     },
     "N411_K3_d4.0": {
@@ -403,10 +1184,272 @@
       "delta_sd": 4.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.08,
+      "mean_bandwidth_used": 0.90737364,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.770238,
+          "bandwidth_used": 0.885774
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.774722,
+          "bandwidth_used": 0.89093
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.788763,
+          "bandwidth_used": 0.907077
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.781073,
+          "bandwidth_used": 0.898233
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.799621,
+          "bandwidth_used": 0.919564
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.779417,
+          "bandwidth_used": 0.896329
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797996,
+          "bandwidth_used": 0.917696
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.800105,
+          "bandwidth_used": 0.920121
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791519,
+          "bandwidth_used": 0.910247
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794268,
+          "bandwidth_used": 0.913408
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801638,
+          "bandwidth_used": 0.921883
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997567,
+            0.002433
+          ],
+          "h_nn": 0.797902,
+          "bandwidth_used": 0.917588
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795534,
+          "bandwidth_used": 0.914864
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.774916,
+          "bandwidth_used": 0.891153
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.77804,
+          "bandwidth_used": 0.894746
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791315,
+          "bandwidth_used": 0.910012
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.805405,
+          "bandwidth_used": 0.926216
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997567,
+            0.002433
+          ],
+          "h_nn": 0.789667,
+          "bandwidth_used": 0.908118
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.783691,
+          "bandwidth_used": 0.901244
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.782976,
+          "bandwidth_used": 0.900422
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784236,
+          "bandwidth_used": 0.901872
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.78004,
+          "bandwidth_used": 0.897046
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791651,
+          "bandwidth_used": 0.910399
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784247,
+          "bandwidth_used": 0.901885
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806534,
+          "bandwidth_used": 0.927514
+        }
       ]
     },
     "N411_K4_d2.5": {
@@ -415,10 +1458,270 @@
       "delta_sd": 2.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.9444409600000001,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.823947,
+          "bandwidth_used": 0.947539
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.829634,
+          "bandwidth_used": 0.954079
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.83744,
+          "bandwidth_used": 0.963056
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.811218,
+          "bandwidth_used": 0.932901
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.827169,
+          "bandwidth_used": 0.951244
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.834742,
+          "bandwidth_used": 0.959953
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.8131,
+          "bandwidth_used": 0.935065
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.818312,
+          "bandwidth_used": 0.941059
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797911,
+          "bandwidth_used": 0.917598
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.825316,
+          "bandwidth_used": 0.949113
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.824959,
+          "bandwidth_used": 0.948702
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.829228,
+          "bandwidth_used": 0.953612
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.814739,
+          "bandwidth_used": 0.93695
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.823027,
+          "bandwidth_used": 0.946481
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.820943,
+          "bandwidth_used": 0.944085
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812297,
+          "bandwidth_used": 0.934142
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812836,
+          "bandwidth_used": 0.934761
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.822356,
+          "bandwidth_used": 0.945709
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.818201,
+          "bandwidth_used": 0.940931
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.82289,
+          "bandwidth_used": 0.946323
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.821906,
+          "bandwidth_used": 0.945192
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81179,
+          "bandwidth_used": 0.933558
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.832486,
+          "bandwidth_used": 0.957359
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.824946,
+          "bandwidth_used": 0.948688
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.819934,
+          "bandwidth_used": 0.942924
+        }
       ]
     },
     "N411_K4_d3.0": {
@@ -427,10 +1730,270 @@
       "delta_sd": 3.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.92923024,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806694,
+          "bandwidth_used": 0.927698
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81652,
+          "bandwidth_used": 0.938999
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.79581,
+          "bandwidth_used": 0.915181
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.808277,
+          "bandwidth_used": 0.929518
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81727,
+          "bandwidth_used": 0.93986
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802404,
+          "bandwidth_used": 0.922765
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816229,
+          "bandwidth_used": 0.938664
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812979,
+          "bandwidth_used": 0.934926
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813361,
+          "bandwidth_used": 0.935365
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798498,
+          "bandwidth_used": 0.918272
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816103,
+          "bandwidth_used": 0.938519
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.811957,
+          "bandwidth_used": 0.933751
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.777518,
+          "bandwidth_used": 0.894146
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81173,
+          "bandwidth_used": 0.933489
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806189,
+          "bandwidth_used": 0.927117
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.785688,
+          "bandwidth_used": 0.903541
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804123,
+          "bandwidth_used": 0.924742
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.790728,
+          "bandwidth_used": 0.909337
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.831333,
+          "bandwidth_used": 0.956032
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815791,
+          "bandwidth_used": 0.93816
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.808537,
+          "bandwidth_used": 0.929818
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.80181,
+          "bandwidth_used": 0.922081
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816866,
+          "bandwidth_used": 0.939396
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81937,
+          "bandwidth_used": 0.942276
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.814872,
+          "bandwidth_used": 0.937103
+        }
       ]
     },
     "N411_K4_d3.5": {
@@ -439,10 +2002,270 @@
       "delta_sd": 3.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.9076004799999999,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795925,
+          "bandwidth_used": 0.915313
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804159,
+          "bandwidth_used": 0.924783
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798576,
+          "bandwidth_used": 0.918363
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797039,
+          "bandwidth_used": 0.916595
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786902,
+          "bandwidth_used": 0.904937
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.783752,
+          "bandwidth_used": 0.901315
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794121,
+          "bandwidth_used": 0.913239
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.790716,
+          "bandwidth_used": 0.909323
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.757086,
+          "bandwidth_used": 0.870649
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778488,
+          "bandwidth_used": 0.895261
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797584,
+          "bandwidth_used": 0.917222
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.789297,
+          "bandwidth_used": 0.907692
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.767704,
+          "bandwidth_used": 0.88286
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791127,
+          "bandwidth_used": 0.909796
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797096,
+          "bandwidth_used": 0.916661
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793511,
+          "bandwidth_used": 0.912537
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.789112,
+          "bandwidth_used": 0.907478
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804836,
+          "bandwidth_used": 0.925562
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791775,
+          "bandwidth_used": 0.910542
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784727,
+          "bandwidth_used": 0.902436
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.79125,
+          "bandwidth_used": 0.909938
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.78291,
+          "bandwidth_used": 0.900347
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802933,
+          "bandwidth_used": 0.923373
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.787711,
+          "bandwidth_used": 0.905868
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.772106,
+          "bandwidth_used": 0.887922
+        }
       ]
     },
     "N411_K4_d4.0": {
@@ -451,10 +2274,270 @@
       "delta_sd": 4.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.8851584000000001,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.763105,
+          "bandwidth_used": 0.877571
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.76779,
+          "bandwidth_used": 0.882958
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.761964,
+          "bandwidth_used": 0.876259
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.792089,
+          "bandwidth_used": 0.910902
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.758087,
+          "bandwidth_used": 0.8718
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766215,
+          "bandwidth_used": 0.881147
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.772086,
+          "bandwidth_used": 0.887899
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.756383,
+          "bandwidth_used": 0.86984
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.776062,
+          "bandwidth_used": 0.892471
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.763139,
+          "bandwidth_used": 0.87761
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.77797,
+          "bandwidth_used": 0.894665
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.770302,
+          "bandwidth_used": 0.885847
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775106,
+          "bandwidth_used": 0.891372
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.767206,
+          "bandwidth_used": 0.882286
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766445,
+          "bandwidth_used": 0.881412
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.764348,
+          "bandwidth_used": 0.879
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.747984,
+          "bandwidth_used": 0.860181
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.780803,
+          "bandwidth_used": 0.897923
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.781154,
+          "bandwidth_used": 0.898327
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778798,
+          "bandwidth_used": 0.895618
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.783661,
+          "bandwidth_used": 0.90121
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.765066,
+          "bandwidth_used": 0.879826
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.765038,
+          "bandwidth_used": 0.879794
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.747094,
+          "bandwidth_used": 0.859158
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794682,
+          "bandwidth_used": 0.913884
+        }
       ]
     },
     "N439_K3_d2.5": {
@@ -463,10 +2546,270 @@
       "delta_sd": 2.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.94010912,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813425,
+          "bandwidth_used": 0.935438
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.819121,
+          "bandwidth_used": 0.941989
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.817145,
+          "bandwidth_used": 0.939717
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.831504,
+          "bandwidth_used": 0.956229
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.822186,
+          "bandwidth_used": 0.945514
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.82213,
+          "bandwidth_used": 0.945449
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.832365,
+          "bandwidth_used": 0.957219
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.827616,
+          "bandwidth_used": 0.951758
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812551,
+          "bandwidth_used": 0.934434
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.821772,
+          "bandwidth_used": 0.945037
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812211,
+          "bandwidth_used": 0.934043
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810333,
+          "bandwidth_used": 0.931882
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.834031,
+          "bandwidth_used": 0.959136
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.800371,
+          "bandwidth_used": 0.920427
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812314,
+          "bandwidth_used": 0.934161
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810393,
+          "bandwidth_used": 0.931952
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801785,
+          "bandwidth_used": 0.922053
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.836368,
+          "bandwidth_used": 0.961823
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812187,
+          "bandwidth_used": 0.934015
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.817123,
+          "bandwidth_used": 0.939691
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.811535,
+          "bandwidth_used": 0.933265
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.819907,
+          "bandwidth_used": 0.942894
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810619,
+          "bandwidth_used": 0.932212
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815886,
+          "bandwidth_used": 0.938269
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812279,
+          "bandwidth_used": 0.934121
+        }
       ]
     },
     "N439_K3_d3.0": {
@@ -475,10 +2818,272 @@
       "delta_sd": 3.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.08,
+      "mean_bandwidth_used": 0.92823424,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803438,
+          "bandwidth_used": 0.923954
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802358,
+          "bandwidth_used": 0.922712
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786096,
+          "bandwidth_used": 0.904011
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.796427,
+          "bandwidth_used": 0.915891
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.811794,
+          "bandwidth_used": 0.933564
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812848,
+          "bandwidth_used": 0.934775
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.79095,
+          "bandwidth_used": 0.909593
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813099,
+          "bandwidth_used": 0.935064
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.817221,
+          "bandwidth_used": 0.939804
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.811614,
+          "bandwidth_used": 0.933356
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810386,
+          "bandwidth_used": 0.931944
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.796477,
+          "bandwidth_used": 0.915948
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810561,
+          "bandwidth_used": 0.932145
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.805445,
+          "bandwidth_used": 0.926261
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802151,
+          "bandwidth_used": 0.922474
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815316,
+          "bandwidth_used": 0.937614
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806148,
+          "bandwidth_used": 0.92707
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806707,
+          "bandwidth_used": 0.927713
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.829376,
+          "bandwidth_used": 0.953783
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.809225,
+          "bandwidth_used": 0.930609
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816541,
+          "bandwidth_used": 0.939023
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.796244,
+          "bandwidth_used": 0.91568
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.816812,
+          "bandwidth_used": 0.939333
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.797936,
+          "bandwidth_used": 0.917626
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.813834,
+          "bandwidth_used": 0.935909
+        }
       ]
     },
     "N439_K3_d3.5": {
@@ -487,10 +3092,270 @@
       "delta_sd": 3.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.912321,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793572,
+          "bandwidth_used": 0.912608
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806721,
+          "bandwidth_used": 0.927729
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802134,
+          "bandwidth_used": 0.922454
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.796818,
+          "bandwidth_used": 0.916341
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81074,
+          "bandwidth_used": 0.932351
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801206,
+          "bandwidth_used": 0.921386
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.787611,
+          "bandwidth_used": 0.905752
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786883,
+          "bandwidth_used": 0.904915
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786269,
+          "bandwidth_used": 0.904209
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.792353,
+          "bandwidth_used": 0.911206
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784279,
+          "bandwidth_used": 0.901921
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.780689,
+          "bandwidth_used": 0.897792
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795541,
+          "bandwidth_used": 0.914873
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793208,
+          "bandwidth_used": 0.912189
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.790252,
+          "bandwidth_used": 0.90879
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803891,
+          "bandwidth_used": 0.924475
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.787734,
+          "bandwidth_used": 0.905894
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.781426,
+          "bandwidth_used": 0.89864
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798401,
+          "bandwidth_used": 0.918161
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786723,
+          "bandwidth_used": 0.904731
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798876,
+          "bandwidth_used": 0.918708
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.800348,
+          "bandwidth_used": 0.9204
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.785896,
+          "bandwidth_used": 0.903781
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786836,
+          "bandwidth_used": 0.904862
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794659,
+          "bandwidth_used": 0.913857
+        }
       ]
     },
     "N439_K3_d4.0": {
@@ -499,10 +3364,271 @@
       "delta_sd": 4.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.04,
+      "mean_bandwidth_used": 0.88801504,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.767679,
+          "bandwidth_used": 0.882831
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.75724,
+          "bandwidth_used": 0.870826
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.767266,
+          "bandwidth_used": 0.882356
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.77468,
+          "bandwidth_used": 0.890881
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.770797,
+          "bandwidth_used": 0.886416
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.758669,
+          "bandwidth_used": 0.87247
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784238,
+          "bandwidth_used": 0.901874
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.764314,
+          "bandwidth_used": 0.878961
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.807012,
+          "bandwidth_used": 0.928063
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786261,
+          "bandwidth_used": 0.904201
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.77272,
+          "bandwidth_used": 0.888628
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.791457,
+          "bandwidth_used": 0.910176
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775853,
+          "bandwidth_used": 0.892231
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.764441,
+          "bandwidth_used": 0.879108
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775175,
+          "bandwidth_used": 0.891451
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.755619,
+          "bandwidth_used": 0.868962
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.763297,
+          "bandwidth_used": 0.877792
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766859,
+          "bandwidth_used": 0.881888
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775422,
+          "bandwidth_used": 0.891736
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.76281,
+          "bandwidth_used": 0.877232
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.776956,
+          "bandwidth_used": 0.8935
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766313,
+          "bandwidth_used": 0.88126
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778251,
+          "bandwidth_used": 0.894988
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.7771,
+          "bandwidth_used": 0.893665
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.764244,
+          "bandwidth_used": 0.87888
+        }
       ]
     },
     "N439_K4_d2.5": {
@@ -511,10 +3637,270 @@
       "delta_sd": 2.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.9367372,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815609,
+          "bandwidth_used": 0.937951
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.809852,
+          "bandwidth_used": 0.93133
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798163,
+          "bandwidth_used": 0.917887
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.821747,
+          "bandwidth_used": 0.945009
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.81539,
+          "bandwidth_used": 0.937698
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.826697,
+          "bandwidth_used": 0.950702
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.833052,
+          "bandwidth_used": 0.95801
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810401,
+          "bandwidth_used": 0.931961
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.823327,
+          "bandwidth_used": 0.946826
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.795594,
+          "bandwidth_used": 0.914934
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.833533,
+          "bandwidth_used": 0.958563
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.812777,
+          "bandwidth_used": 0.934694
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.823825,
+          "bandwidth_used": 0.947399
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.828421,
+          "bandwidth_used": 0.952684
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798452,
+          "bandwidth_used": 0.918219
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813974,
+          "bandwidth_used": 0.93607
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815278,
+          "bandwidth_used": 0.93757
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793379,
+          "bandwidth_used": 0.912386
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.814415,
+          "bandwidth_used": 0.936577
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810162,
+          "bandwidth_used": 0.931687
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.830747,
+          "bandwidth_used": 0.955359
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803467,
+          "bandwidth_used": 0.923987
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.807912,
+          "bandwidth_used": 0.929099
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.826533,
+          "bandwidth_used": 0.950513
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801144,
+          "bandwidth_used": 0.921315
+        }
       ]
     },
     "N439_K4_d3.0": {
@@ -523,10 +3909,270 @@
       "delta_sd": 3.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.0,
+      "mean_bandwidth_used": 0.91512012,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.786854,
+          "bandwidth_used": 0.904882
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.805373,
+          "bandwidth_used": 0.926179
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794064,
+          "bandwidth_used": 0.913173
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.813795,
+          "bandwidth_used": 0.935864
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.802859,
+          "bandwidth_used": 0.923287
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.793687,
+          "bandwidth_used": 0.91274
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.799843,
+          "bandwidth_used": 0.919819
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.777484,
+          "bandwidth_used": 0.894106
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.770973,
+          "bandwidth_used": 0.886619
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.784265,
+          "bandwidth_used": 0.901905
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778724,
+          "bandwidth_used": 0.895532
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.803745,
+          "bandwidth_used": 0.924306
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.794229,
+          "bandwidth_used": 0.913364
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.78108,
+          "bandwidth_used": 0.898242
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.78978,
+          "bandwidth_used": 0.908247
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798747,
+          "bandwidth_used": 0.918559
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804014,
+          "bandwidth_used": 0.924617
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.807276,
+          "bandwidth_used": 0.928367
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.800791,
+          "bandwidth_used": 0.92091
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.815611,
+          "bandwidth_used": 0.937953
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.789592,
+          "bandwidth_used": 0.90803
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.780254,
+          "bandwidth_used": 0.897292
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.810502,
+          "bandwidth_used": 0.932077
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.804349,
+          "bandwidth_used": 0.925002
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.806027,
+          "bandwidth_used": 0.926931
+        }
       ]
     },
     "N439_K4_d3.5": {
@@ -535,10 +4181,271 @@
       "delta_sd": 3.5,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.04,
+      "mean_bandwidth_used": 0.9002114400000001,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778141,
+          "bandwidth_used": 0.894863
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.772862,
+          "bandwidth_used": 0.888791
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.792529,
+          "bandwidth_used": 0.911409
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798623,
+          "bandwidth_used": 0.918416
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.787267,
+          "bandwidth_used": 0.905357
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.780369,
+          "bandwidth_used": 0.897424
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.761498,
+          "bandwidth_used": 0.875723
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.773803,
+          "bandwidth_used": 0.889873
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.782161,
+          "bandwidth_used": 0.899485
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.78218,
+          "bandwidth_used": 0.899506
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766982,
+          "bandwidth_used": 0.88203
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.774506,
+          "bandwidth_used": 0.890682
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.787511,
+          "bandwidth_used": 0.905637
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798153,
+          "bandwidth_used": 0.917876
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.798957,
+          "bandwidth_used": 0.9188
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.781111,
+          "bandwidth_used": 0.898278
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.769916,
+          "bandwidth_used": 0.885404
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.801886,
+          "bandwidth_used": 0.922169
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.80332,
+          "bandwidth_used": 0.923817
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775869,
+          "bandwidth_used": 0.89225
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.779109,
+          "bandwidth_used": 0.895976
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.778853,
+          "bandwidth_used": 0.895681
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.779418,
+          "bandwidth_used": 0.896331
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.799835,
+          "bandwidth_used": 0.91981
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.764955,
+          "bandwidth_used": 0.879698
+        }
       ]
     },
     "N439_K4_d4.0": {
@@ -547,10 +4454,272 @@
       "delta_sd": 4.0,
       "exact_recovery_rate": 0.0,
       "hits": 0,
+      "n_single_mode": 25,
+      "n_ge_2_modes": 0,
+      "mean_n_macro_modes": 1.0,
+      "mode_count_distribution": {
+        "1": 25
+      },
+      "mean_n_total_attractors": 1.08,
+      "mean_bandwidth_used": 0.87178444,
       "reps": 25,
       "wilson_ci95": [
         1.3877787807814457e-17,
         0.13319225093904846
+      ],
+      "replicates": [
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.766556,
+          "bandwidth_used": 0.881539
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.74845,
+          "bandwidth_used": 0.860717
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.75832,
+          "bandwidth_used": 0.872068
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.765034,
+          "bandwidth_used": 0.879789
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.740206,
+          "bandwidth_used": 0.851236
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.739273,
+          "bandwidth_used": 0.850164
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.746057,
+          "bandwidth_used": 0.857966
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.756809,
+          "bandwidth_used": 0.87033
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.754665,
+          "bandwidth_used": 0.867865
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.748578,
+          "bandwidth_used": 0.860865
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 2,
+          "basin_masses": [
+            0.997722,
+            0.002278
+          ],
+          "h_nn": 0.751473,
+          "bandwidth_used": 0.864194
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.769254,
+          "bandwidth_used": 0.884643
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.755363,
+          "bandwidth_used": 0.868668
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.749732,
+          "bandwidth_used": 0.862192
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.761001,
+          "bandwidth_used": 0.875151
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.752489,
+          "bandwidth_used": 0.865362
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.765471,
+          "bandwidth_used": 0.880292
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.757026,
+          "bandwidth_used": 0.87058
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.771348,
+          "bandwidth_used": 0.887051
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.765635,
+          "bandwidth_used": 0.880481
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.760238,
+          "bandwidth_used": 0.874274
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.775602,
+          "bandwidth_used": 0.891942
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.750442,
+          "bandwidth_used": 0.863008
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.773741,
+          "bandwidth_used": 0.889803
+        },
+        {
+          "exact_recovery": false,
+          "n_macro_modes": 1,
+          "n_total_attractors": 1,
+          "basin_masses": [
+            1.0
+          ],
+          "h_nn": 0.76907,
+          "bandwidth_used": 0.884431
+        }
       ]
     }
   }

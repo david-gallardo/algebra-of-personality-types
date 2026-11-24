@@ -58,9 +58,13 @@ Raw and processed empirical datasets are excluded from this repository due to fi
    ```
 3. **Soto (2019) LOOPR** ($N = 6{,}126$): Download from OSF ([https://osf.io/3d485/](https://osf.io/3d485/)) and place under `data/raw/soto2019/`.
 4. **Cross-Domain Clinical Psychopathology (HiTOP-SR & HiTOP MASEM)**:
-   - **Ringwald, Forbes & Wright (2023)** meta-analytic MASEM matrices: OSF ([https://osf.io/pqmtc/](https://osf.io/pqmtc/)).
-   - **US University of Kansas HiTOP-SR** ($N = 411$, 405 items): Distributed in the official R package `hitop` v0.2.0 ([https://github.com/jmgirard/hitop](https://github.com/jmgirard/hitop)).
-   - **Czech HiTOP-CZ** ($N = 443$, 76 scale scores; Doubková & Rossi, 2026): Download `dataset.csv` from OSF ([https://osf.io/jx8h7/](https://osf.io/jx8h7/)) and place under `data/raw/hitop_empirical/czech_hitop/`.
+   - **Ringwald, Forbes & Wright (2023)** meta-analytic MASEM matrices: Download from OSF ([https://osf.io/pqmtc/](https://osf.io/pqmtc/)) into `data/raw/hitop_ringwald2023/`.
+   - **US University of Kansas HiTOP-SR** ($N = 411$, 405 items): Install the official R package `hitop` v0.2.0 in R (`remotes::install_github("jmgirard/hitop")`) and run `Rscript r/score_hitopsr.R`, which exports scored scale profiles to `data/processed/hitop_empirical/ku_hitopsr_scored.csv`.
+   - **Czech HiTOP-CZ** ($N = 443$, 76 scale scores; Doubková & Rossi, 2026): Download `dataset.csv` from OSF ([https://osf.io/jx8h7/](https://osf.io/jx8h7/)) and place it at `data/raw/hitop_empirical/czech_hitop/dataset.csv`.
+   - **Reproducing the HiTOP-SR validation & revision checks**:
+     - `scripts/hitop_01_score_and_qc.py`: Harmonizes the 37 common scales into the 5 HiTOP spectra (`INT, DET, TD, A_EXT, D_EXT`), computes reliability ($\alpha$, $\omega_t$) and cross-language loading congruence.
+     - `scripts/hitop_03_run_hitopsr.py`: Runs primary empirical clustering, topographic unimodality tests, and BIC selection (`results/empirical/hitop/hitop_empirical_results.json`).
+     - `scripts/hitop_03b_revision_checks.py`: Runs the matched full & shape-only $2 \times 2$ factorial null simulations ($B = 2{,}000$ pairs/null at $K=3,4$), multi-replicate BIC calibration ($B = 100$ reps under C0/C1), and exact-$N$ ($N=411, 439$) positive-control topographic diagnostics including per-replicate mode counts, total attractors, basin masses, and bandwidths (`results/empirical/hitop/hitop_v12_revision_checks.json`).
 
 ## Reproducing the Analyses
 

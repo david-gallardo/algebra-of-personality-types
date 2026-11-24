@@ -122,17 +122,27 @@ def _pos_control_rep(
     k: int,
     delta: float,
     seed_seq: np.random.SeedSequence,
-) -> bool:
+) -> dict[str, Any]:
     rng = np.random.default_rng(seed_seq)
     x, _, centers = generate_synthetic_mixture(n=n, d=5, k=k, separation_sd=delta, rng=rng)
     # Standardize per dimension as in empirical pipeline
     x = (x - x.mean(axis=0)) / x.std(axis=0, ddof=1)
     h = compute_h_nn(x, rng=rng)
+    h_used = float(h * 1.15)
     # Use full-sample starts (exact same rule as empirical KU/CZ topography)
-    tr = run_mean_shift(x, x, bandwidth=h * 1.15, merge_radius=0.15)
+    tr = run_mean_shift(x, x, bandwidth=h_used, merge_radius=0.15)
+    basin_masses = sorted((tr.basin_counts / float(n)).tolist(), reverse=True)
+    n_attractors = int(len(tr.basin_counts))
     # Count macroscopic modes attracting >= 5% of participants
     macro_modes = int(np.sum((tr.basin_counts / float(n)) >= 0.05))
-    return macro_modes == k
+    return {
+        "exact_recovery": bool(macro_modes == k),
+        "n_macro_modes": macro_modes,
+        "n_total_attractors": n_attractors,
+        "basin_masses": [round(float(m), 6) for m in basin_masses],
+        "h_nn": round(float(h), 6),
+        "bandwidth_used": round(h_used, 6),
+    }
 
 
 def main() -> int:
@@ -237,10 +247,16 @@ def main() -> int:
     pc_summary: dict[str, Any] = {}
     for (n, k, d), p_ss in zip(pc_grid, pc_seeds):
         r_seeds = p_ss.spawn(b_pc)
-        hits = Parallel(n_jobs=n_jobs)(
+        rep_results = Parallel(n_jobs=n_jobs)(
             delayed(_pos_control_rep)(n, k, d, r_seeds[i]) for i in range(b_pc)
         )
-        n_hit = int(sum(hits))
+        n_hit = int(sum(r["exact_recovery"] for r in rep_results))
+        n_single = int(sum(r["n_macro_modes"] == 1 for r in rep_results))
+        n_ge_2 = int(sum(r["n_macro_modes"] >= 2 for r in rep_results))
+        macro_counts = [r["n_macro_modes"] for r in rep_results]
+        mode_dist: dict[str, int] = {}
+        for mc in sorted(set(macro_counts)):
+            mode_dist[str(mc)] = int(sum(x == mc for x in macro_counts))
         lo, hi = wilson_ci(n_hit, b_pc)
         pc_summary[f"N{n}_K{k}_d{d:.1f}"] = {
             "n": n,
@@ -248,8 +264,15 @@ def main() -> int:
             "delta_sd": d,
             "exact_recovery_rate": n_hit / float(b_pc),
             "hits": n_hit,
+            "n_single_mode": n_single,
+            "n_ge_2_modes": n_ge_2,
+            "mean_n_macro_modes": float(np.mean(macro_counts)),
+            "mode_count_distribution": mode_dist,
+            "mean_n_total_attractors": float(np.mean([r["n_total_attractors"] for r in rep_results])),
+            "mean_bandwidth_used": float(np.mean([r["bandwidth_used"] for r in rep_results])),
             "reps": b_pc,
             "wilson_ci95": [lo, hi],
+            "replicates": rep_results,
         }
 
     payload = {
@@ -289,7 +312,12 @@ def main() -> int:
 
     print("\n--- Positive Control at N=411 / 439 (1.15 h_NN, 25 reps/cell) ---")
     for key, p in pc_summary.items():
-        print(f"  {key:14s}: {p['exact_recovery_rate']*100:5.1f}% ({p['hits']}/{p['reps']}) CI=[{p['wilson_ci95'][0]*100:.0f}%, {p['wilson_ci95'][1]*100:.0f}%]")
+        print(
+            f"  {key:14s}: exact={p['hits']}/{p['reps']} ({p['exact_recovery_rate']*100:5.1f}%) "
+            f"| 1-mode={p['n_single_mode']}/{p['reps']} | >=2-modes={p['n_ge_2_modes']}/{p['reps']} "
+            f"| mean_attractors={p['mean_n_total_attractors']:.2f} | h_used={p['mean_bandwidth_used']:.3f} "
+            f"| dist={p['mode_count_distribution']}"
+        )
     return 0
 
 
