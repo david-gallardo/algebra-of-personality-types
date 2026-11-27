@@ -1,0 +1,139 @@
+{
+  "environment": {
+    "python": "3.12.7",
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.5.1"
+  },
+  "math_identities": {
+    "t_star": 0.61200318,
+    "m_star": 1.22400636,
+    "c_L": 0.80982596,
+    "rho": 1.03648245,
+    "coeff_tri": 0.53714793,
+    "spectral_threshold": 0.50764047,
+    "matches_0_50764047": true,
+    "total_N": 563886,
+    "matches_563886": true,
+    "table1_det_ratio_checks": {
+      "van_der_linden_2010": {
+        "det": 0.637,
+        "computed_ratio": 1.253,
+        "table1_ratio": 1.253,
+        "diff": 0.0001
+      },
+      "busseri_erb_2024": {
+        "det": 0.628,
+        "computed_ratio": 1.262,
+        "table1_ratio": 1.262,
+        "diff": 0.0001
+      },
+      "bfi2_es_study1": {
+        "det": 0.6616482743,
+        "computed_ratio": 1.229,
+        "table1_ratio": 1.229,
+        "diff": 0.0004
+      },
+      "soto2019": {
+        "det": 0.296,
+        "computed_ratio": 1.838,
+        "table1_ratio": 1.838,
+        "diff": 0.0
+      },
+      "ipip300_domains": {
+        "det": 0.527,
+        "computed_ratio": 1.378,
+        "table1_ratio": 1.378,
+        "diff": 0.0005
+      },
+      "ipip120_domains": {
+        "det": 0.485,
+        "computed_ratio": 1.436,
+        "table1_ratio": 1.436,
+        "diff": 0.0001
+      },
+      "hitop5_ringwald": {
+        "det": 0.498,
+        "computed_ratio": 1.417,
+        "table1_ratio": 1.418,
+        "diff": 0.0009
+      },
+      "hitop21_ringwald": {
+        "det": 0.001215,
+        "computed_ratio": 28.689,
+        "table1_ratio": 28.69,
+        "diff": 0.0012
+      },
+      "ku_hitopsr": {
+        "det": 0.048,
+        "computed_ratio": 4.564,
+        "table1_ratio": 4.583,
+        "diff": 0.0186
+      },
+      "cz_hitop": {
+        "det": 0.039,
+        "computed_ratio": 5.064,
+        "table1_ratio": 5.07,
+        "diff": 0.0063
+      }
+    },
+    "wilson_ci_checks": {
+      "463_of_500": [
+        90.0,
+        94.6
+      ],
+      "494_of_500": [
+        97.4,
+        99.4
+      ],
+      "498_of_500": [
+        98.6,
+        99.9
+      ],
+      "0_of_10": [
+        0.0,
+        28.0
+      ],
+      "8_of_10": [
+        49.0,
+        94.0
+      ],
+      "10_of_10": [
+        72.0,
+        100.0
+      ],
+      "0_of_25": [
+        0.0,
+        13.0
+      ]
+    },
+    "hitop_k3_factorial_check": {
+      "main_R_recomputed": 0.3218,
+      "main_R_json": 0.3218,
+      "R_x_M_recomputed": 0.194434,
+      "R_x_M_json": 0.194434,
+      "C1_minus_C0_recomputed": 0.251583,
+      "C1_minus_C0_json": 0.251583
+    },
+    "hitop_all_16_pos_control_cells_25_of_25_single_mode": true
+  },
+  "v16_tex_audit": {
+    "abstract_word_count_approx": 145,
+    "abstract_le_150": true,
+    "figure_first_appearance_order": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "figures_strictly_ordered_1_to_5": true,
+    "hardcoded_supplementary_table_S1_count": 0,
+    "missing_refs": [],
+    "missing_cites": [],
+    "n_bibitems": 31,
+    "n_cited": 31
+  }
+}
