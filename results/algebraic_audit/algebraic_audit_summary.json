@@ -1,0 +1,328 @@
+{
+  "seed": 20261121,
+  "n_boot": 500,
+  "tau": 0.01,
+  "meta_analytic_wishart": {
+    "van_der_linden_2010": {
+      "n_eff": 144117,
+      "n_draws": 500,
+      "tau": 0.01,
+      "pentad_point_displayed": 4.9152000000000006e-05,
+      "pentad_wishart_ci95": [
+        3.697516085664717e-05,
+        6.032695459067966e-05
+      ],
+      "r_joint_radius_95": 0.010815392984546883,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 0.7482646590612174,
+          "min_positive_eig_b": 0.0
+        },
+        "2": {
+          "distance_upper_bound": 0.1905666649366342,
+          "min_positive_eig_b": 1.1548262557956672
+        },
+        "3": {
+          "distance_upper_bound": 0.02907654524921795,
+          "min_positive_eig_b": 0.575560756549258
+        },
+        "4": {
+          "distance_upper_bound": 1.8555684899033359e-06,
+          "min_positive_eig_b": 0.10090703608839693
+        },
+        "5": {
+          "distance_upper_bound": 2.3262034757089584e-06,
+          "min_positive_eig_b": 0.1392534551748704
+        }
+      },
+      "caveat": "Wishart sampling approximates joint sampling variability under MVN with effective N; rounded published matrices are not exact population parameters."
+    },
+    "busseri_erb_2024": {
+      "n_eff": 22135,
+      "n_draws": 500,
+      "tau": 0.01,
+      "pentad_point_displayed": 0.00010740060000000005,
+      "pentad_wishart_ci95": [
+        7.901239913662032e-05,
+        0.00014065125962668988
+      ],
+      "r_joint_radius_95": 0.029038762470135666,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 0.7711031059462801,
+          "min_positive_eig_b": 0.0
+        },
+        "2": {
+          "distance_upper_bound": 0.1308696317726599,
+          "min_positive_eig_b": 1.2198320254384682
+        },
+        "3": {
+          "distance_upper_bound": 0.04554156816566425,
+          "min_positive_eig_b": 0.5194645523759021
+        },
+        "4": {
+          "distance_upper_bound": 4.184318510465743e-06,
+          "min_positive_eig_b": 0.21621486910329665
+        },
+        "5": {
+          "distance_upper_bound": 1.7596520653103187e-06,
+          "min_positive_eig_b": 0.15223336605532076
+        }
+      },
+      "caveat": "Wishart sampling approximates joint sampling variability under MVN with effective N; rounded published matrices are not exact population parameters."
+    }
+  },
+  "individual_level_bootstrap": {
+    "bfi2_es_study1": {
+      "n": 1146,
+      "n_boot": 500,
+      "tau": 0.01,
+      "pentad_point": -0.00014104390848208008,
+      "pentad_boot_ci95": [
+        -0.0003371236913993069,
+        2.3919497351689603e-05
+      ],
+      "pentad_ci95_excludes_zero": false,
+      "r_joint_radius_95": 0.12601103316398093,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 0.6776867855072772,
+          "min_positive_eig_b": 0.0,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "2": {
+          "distance_upper_bound": 0.2235963676840801,
+          "min_positive_eig_b": 1.0409152499196919,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "3": {
+          "distance_upper_bound": 0.11702504942060882,
+          "min_positive_eig_b": 0.7819409616498764,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "4": {
+          "distance_upper_bound": 1.540602181656579e-06,
+          "min_positive_eig_b": 0.6509230190234035,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "5": {
+          "distance_upper_bound": 1.0568668618924671e-06,
+          "min_positive_eig_b": 0.14589978043480395,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        }
+      },
+      "homoscedastic_r3_third_cumulant": {
+        "theoretical_lower_bound_r3": 6.0,
+        "empirical_t_norm_sq_point": 0.31181079919557364,
+        "min_eig_b_point": 0.6509230190234037,
+        "boot_valid_reps": 100,
+        "boot_ill_conditioned_skipped": 0,
+        "boot_ci95": [
+          0.22037655229772884,
+          3.2978666057686663
+        ]
+      }
+    },
+    "ipip300_domains": {
+      "n": 145388,
+      "n_boot": 500,
+      "tau": 0.01,
+      "pentad_point": 0.0018939501322831002,
+      "pentad_boot_ci95": [
+        0.0018294441119904477,
+        0.0019633135168738163
+      ],
+      "pentad_ci95_excludes_zero": true,
+      "r_joint_radius_95": 0.01184778077634354,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 0.7927982790247583,
+          "min_positive_eig_b": 0.0,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "2": {
+          "distance_upper_bound": 0.32973788905827345,
+          "min_positive_eig_b": 1.2809248967229248,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "3": {
+          "distance_upper_bound": 0.1616235849994481,
+          "min_positive_eig_b": 0.9011260670409733,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "4": {
+          "distance_upper_bound": 3.793734036018331e-06,
+          "min_positive_eig_b": 0.41633844183140556,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "5": {
+          "distance_upper_bound": 1.415417775755803e-06,
+          "min_positive_eig_b": 0.08031551365200755,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        }
+      },
+      "homoscedastic_r3_third_cumulant": {
+        "theoretical_lower_bound_r3": 6.0,
+        "empirical_t_norm_sq_point": 2.257707382593585,
+        "min_eig_b_point": 0.4163384418314057,
+        "boot_valid_reps": 100,
+        "boot_ill_conditioned_skipped": 0,
+        "boot_ci95": [
+          0.877639058770654,
+          2.41449690903532
+        ]
+      }
+    },
+    "ipip120_domains": {
+      "n": 410376,
+      "n_boot": 500,
+      "tau": 0.01,
+      "pentad_point": 0.0015601617378169857,
+      "pentad_boot_ci95": [
+        0.0015138491236197657,
+        0.001606147576210503
+      ],
+      "pentad_ci95_excludes_zero": true,
+      "r_joint_radius_95": 0.007092514173255687,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 0.8563402832140441,
+          "min_positive_eig_b": 0.0,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "2": {
+          "distance_upper_bound": 0.3095442228844692,
+          "min_positive_eig_b": 1.3898207791542543,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "3": {
+          "distance_upper_bound": 0.18456577215988473,
+          "min_positive_eig_b": 0.8528418607425863,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "4": {
+          "distance_upper_bound": 2.321420625799441e-06,
+          "min_positive_eig_b": 0.4501313663536676,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "5": {
+          "distance_upper_bound": 1.0540825400381751e-06,
+          "min_positive_eig_b": 0.02184025131099514,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        }
+      },
+      "homoscedastic_r3_third_cumulant": {
+        "theoretical_lower_bound_r3": 6.0,
+        "empirical_t_norm_sq_point": 2.2515563344447083,
+        "min_eig_b_point": 0.45013136635366774,
+        "boot_valid_reps": 100,
+        "boot_ill_conditioned_skipped": 0,
+        "boot_ci95": [
+          1.1492171637440203,
+          2.4410379034128784
+        ]
+      }
+    },
+    "ku_hitopsr": {
+      "n": 411,
+      "n_boot": 500,
+      "tau": 0.01,
+      "pentad_point": 0.0010372599377368105,
+      "pentad_boot_ci95": [
+        -0.0013880845159432388,
+        0.003228994838734596
+      ],
+      "pentad_ci95_excludes_zero": false,
+      "r_joint_radius_95": 0.17395338968551868,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 1.8824202289403733,
+          "min_positive_eig_b": 0.0,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "2": {
+          "distance_upper_bound": 0.3092461402949842,
+          "min_positive_eig_b": 2.9648880351562195,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "3": {
+          "distance_upper_bound": 0.015460271166807727,
+          "min_positive_eig_b": 0.5927364479517748,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "4": {
+          "distance_upper_bound": 4.394544979867996e-06,
+          "min_positive_eig_b": 0.0941701943261881,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "5": {
+          "distance_upper_bound": 6.899640946767074e-06,
+          "min_positive_eig_b": 0.05800700234484509,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        }
+      },
+      "homoscedastic_r3_third_cumulant": {
+        "theoretical_lower_bound_r3": 6.0,
+        "empirical_t_norm_sq_point": 18.088958135310516,
+        "min_eig_b_point": 0.09417019432618806,
+        "boot_valid_reps": 100,
+        "boot_ill_conditioned_skipped": 0,
+        "boot_ci95": [
+          4.753506189100793,
+          254.74582745248725
+        ]
+      }
+    },
+    "czech_hitop": {
+      "n": 439,
+      "n_boot": 500,
+      "tau": 0.01,
+      "pentad_point": -0.000569971938615639,
+      "pentad_boot_ci95": [
+        -0.0038348790859122485,
+        0.002401610065367179
+      ],
+      "pentad_ci95_excludes_zero": false,
+      "r_joint_radius_95": 0.17118607205682837,
+      "d_k_upper_bounds": {
+        "1": {
+          "distance_upper_bound": 1.9058741667038712,
+          "min_positive_eig_b": 0.0,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "2": {
+          "distance_upper_bound": 0.3614888759341362,
+          "min_positive_eig_b": 2.991055974041584,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "3": {
+          "distance_upper_bound": 0.005379271427792378,
+          "min_positive_eig_b": 0.7008398887201666,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "4": {
+          "distance_upper_bound": 2.460783504006364e-06,
+          "min_positive_eig_b": 0.05836725916717849,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        },
+        "5": {
+          "distance_upper_bound": 2.7124152130398814e-06,
+          "min_positive_eig_b": 0.164046778272534,
+          "exceeds_eps95_note": "Upper bound only; cannot certify impossibility without global bound."
+        }
+      },
+      "homoscedastic_r3_third_cumulant": {
+        "theoretical_lower_bound_r3": 6.0,
+        "empirical_t_norm_sq_point": 37.950601542924964,
+        "min_eig_b_point": 0.05836725916717844,
+        "boot_valid_reps": 100,
+        "boot_ill_conditioned_skipped": 0,
+        "boot_ci95": [
+          2.7366103470785195,
+          1773.8154564260908
+        ]
+      }
+    }
+  },
+  "elapsed_sec": 86.42718912474811
+}
